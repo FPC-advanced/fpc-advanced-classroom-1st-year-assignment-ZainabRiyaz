@@ -53,6 +53,7 @@ int sum_composite_numbers(int n, int a[n])
             sum+=a[i];
         }
     }
+    return sum;
 }
 
 void output(int sum)
