@@ -45,6 +45,10 @@ int sum_composite_numbers(int n, int a[n])
         {
             if(a[n]%i==0)
             {
-                sum+=a[n];
+                count+=1;
             }
+        }
+        if (count>2)
+        {
+            sum+=
         }
