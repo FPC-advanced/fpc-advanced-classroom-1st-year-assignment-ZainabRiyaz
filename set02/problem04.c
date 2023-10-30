@@ -50,6 +50,7 @@ int is_composite(int n,int a[n])
             sum+=a[n];
         }
     }
+    return sum;
 
 }
 int sum_composite_numbers(int n, int a[n])
