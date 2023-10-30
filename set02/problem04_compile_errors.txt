@@ -11,3 +11,18 @@ c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
  void input_array(int n, int *a[n]);
       ^~~~~~~~~~~
 Compilation finished at 10/30/2023, 8:24:06 PM
+Compilation started at 10/30/2023, 8:24:41 PM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c: In function 'main':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:15:19: warning: passing argument 2 of 'input_array' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_array(n,&a);
+                   ^
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:6:6: note: expected 'int **' but argument is of type 'int (*)[(sizetype)(n)]'
+ void input_array(int n, int *a[n]);
+      ^~~~~~~~~~~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c: In function 'sum_composite_numbers':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:44:9: error: expected expression at end of input
+         for(int j=1;j<=a[n];j++)
+         ^~~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:44:9: error: expected declaration or statement at end of input
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:44:9: error: expected declaration or statement at end of input
+Compilation finished at 10/30/2023, 8:24:43 PM
