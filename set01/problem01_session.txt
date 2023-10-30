@@ -21,3 +21,16 @@ PS C:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-
 
 PS C:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz> c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem01.exe
 Zainab Riyaz
+PS C:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz> git push
+
+PS C:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz> git add .
+
+PS C:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz> git commit -m "committed 10/30/2023, 10:09:46 AM"
+
+PS C:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz> git push
+
+PS C:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20231030101110
+**********************
