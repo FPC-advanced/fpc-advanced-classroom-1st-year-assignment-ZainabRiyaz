@@ -57,7 +57,8 @@ int sum_composite_numbers(int n, int a[n])
 }
 
 void output(int sum)
-
-]
+{
+    printf("The sum is %d",sum);
+}
 
 
