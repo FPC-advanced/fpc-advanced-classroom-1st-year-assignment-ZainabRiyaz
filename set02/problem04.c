@@ -7,6 +7,13 @@ void input_array(int n, int a[n]);
 int sum_composite_numbers(int n, int a[n]);
 void output(int sum);
 
+int main()
+{
+    int n,sum=0;
+    n=input_array_size();
+    
+}
+
 int input_array_size()
 {
     int n;
