@@ -11,7 +11,8 @@ int main()
 {
     int n,sum=0;
     n=input_array_size();
-    
+    int a[n]=0;
+    input_array(n,a);
 }
 
 int input_array_size()
