@@ -9,6 +9,9 @@ void output(int sum);
 
 int input_array_size()
 {
+    int n;
+    printf("Enter the size of the array: ");
+    scanf("%d",)
     
 }
 
