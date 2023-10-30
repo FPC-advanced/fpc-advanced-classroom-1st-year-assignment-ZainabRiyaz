@@ -20,9 +20,16 @@ void input_array(int n, int a[n])
     for(int i=0;i<n;i++)
     {
         printf("Enter the element: ");
-        scanf("%d",&a[i])
+        scanf("%d",&a[i]);
     }
 }
+
+int sum_composite_numbers(int n, int a[n])
+{
+    
+}
+
+
 
 
 
