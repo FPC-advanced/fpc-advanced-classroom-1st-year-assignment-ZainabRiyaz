@@ -38,6 +38,9 @@ void input_array(int n, int a[n])
 int is_composite(int n,int a[n])
 {
     for(int i=0;i<n;i++)
+    {
+        
+    }
 
 }
 int sum_composite_numbers(int n, int a[n])
