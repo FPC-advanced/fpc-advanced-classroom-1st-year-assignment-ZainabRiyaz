@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 int input_array_size();
-void input_array(int n, int a[n]);
+void input_array(int n, int *a[n]);
 int sum_composite_numbers(int n, int a[n]);
 void output(int sum);
 
@@ -26,12 +26,12 @@ int input_array_size()
     return n;
 }
 
-void input_array(int n, int a[n])
+void input_array(int n, int *a[n])
 {
     for(int i=0;i<n;i++)
     {
         printf("Enter element: ");
-        scanf("%d",&a[i]);
+        scanf("%d",a[i]);
     }
 }
 
