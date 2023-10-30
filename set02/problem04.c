@@ -26,7 +26,10 @@ void input_array(int n, int a[n])
 
 int sum_composite_numbers(int n, int a[n])
 {
-    
+    for(int i=0;i<n;i++)
+    {
+        for()
+    }
 }
 
 
