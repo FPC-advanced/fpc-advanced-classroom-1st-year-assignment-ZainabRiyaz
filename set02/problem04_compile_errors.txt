@@ -2,3 +2,12 @@ Compilation started at 10/30/2023, 8:21:35 PM
 Compilation finished at 10/30/2023, 8:21:39 PM
 Compilation started at 10/30/2023, 8:22:57 PM
 Compilation finished at 10/30/2023, 8:23:01 PM
+Compilation started at 10/30/2023, 8:24:02 PM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c: In function 'main':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:15:19: warning: passing argument 2 of 'input_array' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_array(n,a);
+                   ^
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:6:6: note: expected 'int **' but argument is of type 'int *'
+ void input_array(int n, int *a[n]);
+      ^~~~~~~~~~~
+Compilation finished at 10/30/2023, 8:24:06 PM
