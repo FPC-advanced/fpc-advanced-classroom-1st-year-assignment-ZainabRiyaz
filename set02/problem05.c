@@ -23,9 +23,9 @@ int input()
 int find_gcd(int a, int b)
 {
     int gcd=0;
-    for(int i=1,j=1;i<=a,j<b;i++,j++)
+    for(int i=1,j=1;i<=a,j<=b;i++,j++)
     {
-
+        
     }
 }
 
