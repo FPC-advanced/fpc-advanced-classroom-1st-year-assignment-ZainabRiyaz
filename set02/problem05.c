@@ -1,6 +1,31 @@
 /*Write a program to find GCD _(HCF)_ of two numbers.*/
 
-int input_array_size();
-void input_array(int n, int a[n]);
-int sum_composite_numbers(int n, int a[n]);
-void output(int sum);
+#include <stdio.h>
+
+int input();
+int find_gcd(int a, int b);
+void output(int a, int b, int gcd);
+
+int main()
+{
+
+    return 0;
+}
+
+int input()
+{
+    int num;
+    printf("Please enter the number: ");
+    scanf("%d",&num);
+    return num;
+}
+
+int find_gcd(int a, int b)
+{
+    
+}
+
+
+
+
+
