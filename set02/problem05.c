@@ -23,7 +23,10 @@ int input()
 int find_gcd(int a, int b)
 {
     int gcd=0;
-    for
+    for(int i=0,int j=0;i<a,j<b;i++,j++)
+    [
+        
+    ]
 }
 
 
