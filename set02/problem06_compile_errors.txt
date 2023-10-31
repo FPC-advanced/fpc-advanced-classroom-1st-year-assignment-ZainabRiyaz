@@ -7,3 +7,11 @@ C:\Users\zaina\AppData\Local\Temp\cc65nk9Y.o: In function `str_reverse':
 c:/Users/zaina/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz/set02/problem06.c:27: undefined reference to `len'
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 10/31/2023, 11:24:39 AM
+Compilation started at 10/31/2023, 11:27:42 AM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c: In function 'str_reverse':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:27:16: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+     int lent = strlen(a);
+                ^~~~~~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:27:16: warning: incompatible implicit declaration of built-in function 'strlen'
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:27:16: note: include '<string.h>' or provide a declaration of 'strlen'
+Compilation finished at 10/31/2023, 11:27:45 AM
