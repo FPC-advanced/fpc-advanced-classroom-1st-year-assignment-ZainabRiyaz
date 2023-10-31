@@ -15,3 +15,21 @@ c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
 c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:27:16: warning: incompatible implicit declaration of built-in function 'strlen'
 c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:27:16: note: include '<string.h>' or provide a declaration of 'strlen'
 Compilation finished at 10/31/2023, 11:27:45 AM
+Compilation started at 10/31/2023, 11:45:46 AM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c: In function 'str_reverse':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:27:15: warning: implicit declaration of function 'lenstr' [-Wimplicit-function-declaration]
+     for(int i=lenstr(a);i<=0;i++)
+               ^~~~~~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:27:5: error: declaration of non-variable 'lenstr' in 'for' loop initial declaration
+     for(int i=lenstr(a);i<=0;i++)
+     ^~~
+Compilation finished at 10/31/2023, 11:45:47 AM
+Compilation started at 10/31/2023, 11:46:06 AM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c: In function 'str_reverse':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:27:15: warning: implicit declaration of function 'lenstr' [-Wimplicit-function-declaration]
+     for(int i=lenstr(a);i<=0;i++)
+               ^~~~~~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:27:5: error: declaration of non-variable 'lenstr' in 'for' loop initial declaration
+     for(int i=lenstr(a);i<=0;i++)
+     ^~~
+Compilation finished at 10/31/2023, 11:46:07 AM
