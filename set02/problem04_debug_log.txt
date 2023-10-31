@@ -30,3 +30,11 @@
 31	    for(int i=0;i<n;i++)
 Breakpoint 1 at 0x401585: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c, line 40.
 Breakpoint 2 at 0x4015a5: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c, line 46.
+Breakpoint 3 at 0x4015de: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c, line 51.
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x00401585 in sum_composite_numbers 
+                                           at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:40
+2       breakpoint     keep y   0x004015a5 in sum_composite_numbers 
+                                           at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:46
+3       breakpoint     keep y   0x004015de in sum_composite_numbers 
+                                           at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:51
