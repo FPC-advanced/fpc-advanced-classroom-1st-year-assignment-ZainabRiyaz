@@ -1,7 +1,7 @@
 /*Write a program to reverse a string.*/
 
 #include <stdio.h>
-#include <string
+#include <string.h>
 
 void input_string(char *a);
 void str_reverse(char *a, char *rev_str);
