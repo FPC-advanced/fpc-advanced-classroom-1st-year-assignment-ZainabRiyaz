@@ -28,3 +28,5 @@
 29	void input_array(int n, int a[n])
 30	{
 31	    for(int i=0;i<n;i++)
+Breakpoint 1 at 0x401585: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c, line 40.
+Breakpoint 2 at 0x4015a5: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c, line 46.
