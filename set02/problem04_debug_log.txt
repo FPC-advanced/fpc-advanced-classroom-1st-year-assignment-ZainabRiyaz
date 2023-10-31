@@ -1,0 +1,30 @@
+2	
+3	#include <stdio.h>
+4	
+5	int input_array_size();
+6	void input_array(int n, int a[n]);
+7	int sum_composite_numbers(int n, int a[n]);
+8	void output(int sum);
+9	
+10	int main()
+11	{
+12	    int n,sum=0;
+13	    n=input_array_size();
+14	    int a[n];;
+15	    input_array(n,a);
+16	    sum=sum_composite_numbers(n,a);
+17	    output(sum);
+18	    return 0;
+19	}
+20	
+21	int input_array_size()
+22	{
+23	    int n;
+24	    printf("Enter the size of the array: ");
+25	    scanf("%d",&n);
+26	    return n;
+27	}
+28	
+29	void input_array(int n, int a[n])
+30	{
+31	    for(int i=0;i<n;i++)
