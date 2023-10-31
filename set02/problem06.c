@@ -8,9 +8,10 @@ void output(char *a, char *reverse_a);
 
 int main()
 {
-    char str;
-    input_string();
-    str_reverse()
+    char str,rev_str;
+    input_string(str);
+    str_reverse(str,rev_str);
+    output(str,rev_str)
     return 0;
 }
 
