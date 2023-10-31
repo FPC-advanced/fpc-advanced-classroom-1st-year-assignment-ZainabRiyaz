@@ -38,3 +38,12 @@ Num     Type           Disp Enb Address    What
                                            at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:46
 3       breakpoint     keep y   0x004015de in sum_composite_numbers 
                                            at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:51
+Breakpoint 4 at 0x401482: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c, line 13.
+Starting program: C:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02/./problem04.exe 
+[New Thread 19780.0x50d8]
+[New Thread 19780.0x3704]
+
+Breakpoint 4, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:13
+13	    n=input_array_size();
+14	    int a[n];;
