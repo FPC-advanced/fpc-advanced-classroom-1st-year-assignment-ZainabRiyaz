@@ -1,0 +1,9 @@
+Compilation started at 10/31/2023, 11:24:37 AM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c: In function 'str_reverse':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:27:16: warning: implicit declaration of function 'len' [-Wimplicit-function-declaration]
+     int lent = len(a);
+                ^~~
+C:\Users\zaina\AppData\Local\Temp\cc65nk9Y.o: In function `str_reverse':
+c:/Users/zaina/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz/set02/problem06.c:27: undefined reference to `len'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 10/31/2023, 11:24:39 AM
