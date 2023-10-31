@@ -9,7 +9,6 @@ void output(char *a, char *reverse_a);
 int main()
 {
     input_string();
-    
     return 0;
 }
 
