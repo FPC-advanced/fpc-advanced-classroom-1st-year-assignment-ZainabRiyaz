@@ -33,3 +33,12 @@ c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
      for(int i=lenstr(a);i<=0;i++)
      ^~~
 Compilation finished at 10/31/2023, 11:46:07 AM
+Compilation started at 10/31/2023, 11:47:10 AM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c: In function 'str_reverse':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:27:14: warning: implicit declaration of function 'lenstr' [-Wimplicit-function-declaration]
+     int lent=lenstr(a);
+              ^~~~~~
+C:\Users\zaina\AppData\Local\Temp\ccTzdJCv.o: In function `str_reverse':
+c:/Users/zaina/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz/set02/problem06.c:27: undefined reference to `lenstr'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 10/31/2023, 11:47:13 AM
