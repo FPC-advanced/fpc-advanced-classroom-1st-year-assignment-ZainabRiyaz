@@ -24,7 +24,8 @@ void input_string(char *a)
 void str_reverse(char *a, char *rev_str)
 {
     int i=0;
-    for(int i=lenstr(a);i<=0;i++)
+    int lent=
+    for(lent;lent<=0;i++)
     {
         rev_str+=a[i];
     }
