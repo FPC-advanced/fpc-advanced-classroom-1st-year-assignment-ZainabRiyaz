@@ -20,10 +20,11 @@ void input_string(char *a)
 
 void str_reverse(char *a, char *rev_str)
 {
+    int i=0;
     int lent = len(a);
-    for(lent;
+    for(lent;lent<i;lent--)
     {
-        rev_str=
+        rev_str=a
     }
 
 }
