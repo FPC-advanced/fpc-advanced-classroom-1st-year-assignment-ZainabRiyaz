@@ -20,7 +20,8 @@ void input_string(char *a)
 
 void str_reverse(char *a, char *rev_str)
 {
-    
+    int lent = len(a);
+    for(int i=0;i<le)
 
 }
 
