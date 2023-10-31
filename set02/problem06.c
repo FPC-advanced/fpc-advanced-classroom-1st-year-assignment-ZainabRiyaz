@@ -8,7 +8,8 @@ void output(char *a, char *reverse_a);
 
 int main()
 {
-
+    input_string();
+    
     return 0;
 }
 
@@ -30,7 +31,7 @@ void str_reverse(char *a, char *rev_str)
 
 void output(char *a, char *reverse_a)
 {
-    printf("The string is %s and the reversed string is %s",&a,&reverse_a)
+    printf("The string is %s and the reversed string is %s",&a,&reverse_a);
 }
 
 
