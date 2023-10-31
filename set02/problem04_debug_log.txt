@@ -47,3 +47,11 @@ Breakpoint 4, main ()
     at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:13
 13	    n=input_array_size();
 14	    int a[n];;
+Undefined command: "3".  Try "help".
+Undefined command: "6".  Try "help".
+15	    input_array(n,a);
+16	    sum=sum_composite_numbers(n,a);
+
+Breakpoint 1, sum_composite_numbers (n=5, a=0x61fed8)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:40
+40	    int sum=0;
