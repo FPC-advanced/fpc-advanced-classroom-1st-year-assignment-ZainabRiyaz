@@ -1,0 +1,2 @@
+Undefined command: "gcc".  Try "help".
+Quit (expect signal SIGINT when the program is resumed)

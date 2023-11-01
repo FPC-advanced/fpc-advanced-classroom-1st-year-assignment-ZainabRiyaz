@@ -54,3 +54,15 @@ Compilation started at 10/31/2023, 12:29:02 PM
 Compilation finished at 10/31/2023, 12:29:06 PM
 Compilation started at 10/31/2023, 12:29:34 PM
 Compilation finished at 10/31/2023, 12:29:38 PM
+Compilation started at 11/1/2023, 6:09:24 PM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c: In function 'sum_composite_numbers':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:44:27: error: stray '\' in program
+         for(int j=1;j<=a[i\];j++)
+                           ^
+Compilation finished at 11/1/2023, 6:09:26 PM
+Compilation started at 11/1/2023, 6:09:51 PM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c: In function 'sum_composite_numbers':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:44:27: error: stray '\' in program
+         for(int j=1;j<=a[i\];j++)
+                           ^
+Compilation finished at 11/1/2023, 6:09:52 PM
