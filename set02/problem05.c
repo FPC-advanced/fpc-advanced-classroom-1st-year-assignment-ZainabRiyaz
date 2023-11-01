@@ -8,7 +8,11 @@ void output(int a, int b, int gcd);
 
 int main()
 {
-
+    int a,b,gcd=0;
+    a=input();
+    b=input();
+    gcd=find_gcd(a,b);
+    output(a,b,gcd);
     return 0;
 }
 
@@ -22,11 +26,22 @@ int input()
 
 int find_gcd(int a, int b)
 {
-    int gcd=0;
-    for(int i=1,j=1;i<=a,j<=b;i++,j++)
+    int c=0;
+    if (a>b)
     {
-           
+        while(b!=0)
+        {
+            c=a%b;
+            a=b;
+            b=c;
+        }
     }
+    return a;
+}
+
+void output(int a, int b, int gcd)
+{
+    printf("The gcd of the two numbers %d and %d is %d",a,b,gcd);
 }
 
 
