@@ -66,3 +66,9 @@ c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
          for(int j=1;j<=a[i\];j++)
                            ^
 Compilation finished at 11/1/2023, 6:09:52 PM
+Compilation started at 11/1/2023, 6:10:05 PM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c: In function 'sum_composite_numbers':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:44:27: error: stray '\' in program
+         for(int j=1;j<=a[i\];j++)
+                           ^
+Compilation finished at 11/1/2023, 6:10:07 PM
