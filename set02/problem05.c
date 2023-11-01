@@ -35,8 +35,19 @@ int find_gcd(int a, int b)
             a=b;
             b=c;
         }
+        return a;
     }
-    return a;
+    else if (b>a)
+    {
+        while(a!=0)
+        {
+            c=b%a;
+            b=a;
+            a=c;
+        }
+        return b;
+
+    }
 }
 
 void output(int a, int b, int gcd)
