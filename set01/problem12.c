@@ -56,11 +56,11 @@ Co add_n_Co(int n, Co c[n])
 
 void output(int n, Co c[n], Co result)
 {
-    for(int i=0;i<n;i++)
+    for(int i=0;i<n-1;i++)
     {
         printf("%.2f+%.2f i +",c[i].real,c[i].imaginary);
     }
-    printf("%.2f+%.2f i is %.2f+%.2f i",c[n].real,c[n].imaginary,result.real,result.imaginary);
+    printf("%.2f+%.2f i is %.2f+%.2f i",c[n-1].real,c[n-1].imaginary,result.real,result.imaginary);
 
 }
 
