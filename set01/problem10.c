@@ -9,9 +9,9 @@ void output(char *string1, char *string2, int result);
 
 int main()
 {
-    char str1,str2,result;
+    char str1[100],str2[100],result[100];
     input_two_strings(&str1,&str2);
-    result = stringcompare(&str1,&str2);
+    result[100] = stringcompare(&str1,&str2);
     output(&str1,&str2,result);
     return 0;
 }
