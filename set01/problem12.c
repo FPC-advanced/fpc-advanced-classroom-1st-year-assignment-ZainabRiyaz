@@ -56,7 +56,7 @@ Co add_n_Co(int n, Co c[n])
 
 void output(int n, Co c[n], Co result)
 {
-    for(int i=0;i<n-1;i++)
+    for(int i=0;i<n;i++)
     {
         printf("%.2f+%.2f i +",c[i].real,c[i].imaginary);
     }
