@@ -9,7 +9,7 @@ void output(char *a, char *reverse_a);
 
 int main()
 {
-    char str,rev_str="";
+    char str,rev_str;
     input_string(&str);
     str_reverse(&str,&rev_str);
     output(&str,&rev_str);
@@ -24,16 +24,17 @@ void input_string(char *a)
 
 void str_reverse(char *a, char *rev_str)
 {
-    int lent= lenstr(a);
-    for(lent;lent<0;lent--)
+    int lent= strlen(a);
+    int n=lent-1;
+    for(n;n<=0;n--)
     {
-        rev_str+=a[lent-1];
+        rev_str+=a[n];
     }
 }
 
 void output(char *a, char *reverse_a)
 {
-    printf("The string is %s and the reversed string is %s",&a,&reverse_a);
+    printf("The string is %s and the reversed string is %s",a,reverse_a);
 }
 
 

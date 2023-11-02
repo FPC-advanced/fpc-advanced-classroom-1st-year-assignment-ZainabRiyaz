@@ -64,3 +64,95 @@ Compilation started at 10/31/2023, 12:03:53 PM
 Compilation finished at 10/31/2023, 12:03:57 PM
 Compilation started at 10/31/2023, 12:05:13 PM
 Compilation finished at 10/31/2023, 12:05:15 PM
+Compilation started at 11/1/2023, 7:21:32 PM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c: In function 'main':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:12:22: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char str,rev_str="";
+                      ^~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c: In function 'str_reverse':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:27:15: warning: implicit declaration of function 'lenstr' [-Wimplicit-function-declaration]
+     int lent= lenstr(a);
+               ^~~~~~
+C:\Users\zaina\AppData\Local\Temp\ccETmqBh.o: In function `str_reverse':
+c:/Users/zaina/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz/set02/problem06.c:27: undefined reference to `lenstr'
+collect2.exe: error: ld returned 1 exit status
+Compilation started at 11/1/2023, 7:21:47 PM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c: In function 'main':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:12:22: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char str,rev_str="";
+                      ^~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c: In function 'str_reverse':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:27:15: warning: implicit declaration of function 'lenstr' [-Wimplicit-function-declaration]
+     int lent= lenstr(a);
+               ^~~~~~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:31:16: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+         rev_str=a[n];
+                ^
+C:\Users\zaina\AppData\Local\Temp\ccNbL7k2.o: In function `str_reverse':
+c:/Users/zaina/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz/set02/problem06.c:27: undefined reference to `lenstr'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/1/2023, 7:21:51 PM
+Compilation started at 11/1/2023, 7:22:38 PM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c: In function 'str_reverse':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:27:15: warning: implicit declaration of function 'lenstr' [-Wimplicit-function-declaration]
+     int lent= lenstr(a);
+               ^~~~~~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:31:16: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+         rev_str=a[n];
+                ^
+C:\Users\zaina\AppData\Local\Temp\ccj5ORrQ.o: In function `str_reverse':
+c:/Users/zaina/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz/set02/problem06.c:27: undefined reference to `lenstr'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/1/2023, 7:22:42 PM
+Compilation started at 11/1/2023, 7:23:17 PM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c: In function 'str_reverse':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:27:15: warning: implicit declaration of function 'lenstr' [-Wimplicit-function-declaration]
+     int lent= lenstr(a);
+               ^~~~~~
+C:\Users\zaina\AppData\Local\Temp\cchPWdqx.o: In function `str_reverse':
+c:/Users/zaina/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz/set02/problem06.c:27: undefined reference to `lenstr'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/1/2023, 7:23:20 PM
+Compilation started at 11/1/2023, 7:23:46 PM
+Compilation finished at 11/1/2023, 7:23:50 PM
+Compilation started at 11/1/2023, 7:26:13 PM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c: In function 'main':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:13:18: warning: passing argument 1 of 'input_string' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_string(&str);
+                  ^
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:6:6: note: expected 'char *' but argument is of type 'char (*)[1]'
+ void input_string(char *a);
+      ^~~~~~~~~~~~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:14:17: warning: passing argument 1 of 'str_reverse' from incompatible pointer type [-Wincompatible-pointer-types]
+     str_reverse(&str,&rev_str);
+                 ^
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:7:6: note: expected 'char *' but argument is of type 'char (*)[1]'
+ void str_reverse(char *a, char *rev_str);
+      ^~~~~~~~~~~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:14:22: warning: passing argument 2 of 'str_reverse' from incompatible pointer type [-Wincompatible-pointer-types]
+     str_reverse(&str,&rev_str);
+                      ^
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:7:6: note: expected 'char *' but argument is of type 'char (*)[1]'
+ void str_reverse(char *a, char *rev_str);
+      ^~~~~~~~~~~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:15:12: warning: passing argument 1 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+     output(&str,&rev_str);
+            ^
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:8:6: note: expected 'char *' but argument is of type 'char (*)[1]'
+ void output(char *a, char *reverse_a);
+      ^~~~~~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:15:17: warning: passing argument 2 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+     output(&str,&rev_str);
+                 ^
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:8:6: note: expected 'char *' but argument is of type 'char (*)[1]'
+ void output(char *a, char *reverse_a);
+      ^~~~~~
+Compilation finished at 11/1/2023, 7:26:16 PM
+Compilation started at 11/1/2023, 7:27:36 PM
+Compilation finished at 11/1/2023, 7:27:40 PM
+Compilation started at 11/1/2023, 7:28:13 PM
+Compilation finished at 11/1/2023, 7:28:17 PM
+Compilation started at 11/1/2023, 7:30:38 PM
+Compilation finished at 11/1/2023, 7:30:41 PM
+Compilation started at 11/2/2023, 10:26:03 AM
+Compilation finished at 11/2/2023, 10:26:14 AM
