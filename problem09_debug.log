@@ -1,2 +1,8 @@
 +1
 Undefined command: "1".  Try "help".
++run
+Starting program:  
+No executable specified, use `target exec'.
++run problem09.exe
+Starting program:  problem09.exe
+No executable specified, use `target exec'.
