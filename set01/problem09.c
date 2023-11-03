@@ -25,17 +25,13 @@ float input()
 
 float square_root(float n)
 {
-    int i=0.01;
-    float sqrt;
-    while(i!=0)
+    float accy=0.0001;
+    float in_guess=1;
+    while(n-in_guess>accy)
     {
-        if(i*i==n)
-        {
-            sqrt=i;
-        }
-        i+=0.01;
+        in_guess=(in_guess+ (n/in_guess))/2;
     }
-    return sqrt;
+    return in_guess;
 }
 
 void output(float n, float sqroot)
