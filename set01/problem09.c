@@ -29,7 +29,7 @@ float square_root(float n)
     float in_guess=1.0;
     while(in_guess*in_guess-n>accy)
     {
-        in_guess=(in_guess+ (n/in_guess))/2;
+        in_guess=(in_guess+n/in_guess)/2.0;
     }
     return in_guess;
 }
