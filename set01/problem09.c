@@ -25,13 +25,17 @@ float input()
 
 float square_root(float n)
 {
-    float error = 0.00001;
-    float s= n;
-    while ((s-n/s>error))
+    int i=0.01;
+    float sqrt;
+    while(i!=0)
     {
-        s= (s+n/s)/2;
+        if(i*i==n)
+        {
+            sqrt=i;
+        }
+        i+=0.01;
     }
-    return s;
+    return sqrt;
 }
 
 void output(float n, float sqroot)

@@ -46,7 +46,6 @@ int find_gcd(int a, int b)
             a=c;
         }
         return b;
-
     }
 }
 
