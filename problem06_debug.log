@@ -1,0 +1,9 @@
++1
+Undefined command: "1".  Try "help".
++l
+No symbol table is loaded.  Use the "file" command.
++file
+No executable file now.
+No symbol file now.
++file problem06.c
+problem06.c: No such file or directory.
