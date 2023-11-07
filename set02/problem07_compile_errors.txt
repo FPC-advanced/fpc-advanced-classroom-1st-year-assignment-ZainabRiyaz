@@ -26,3 +26,12 @@ c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
 Compilation finished at 11/7/2023, 4:43:22 PM
 Compilation started at 11/7/2023, 4:44:23 PM
 Compilation finished at 11/7/2023, 4:44:26 PM
+Compilation started at 11/7/2023, 4:47:28 PM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem07.c: In function 'find_area':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem07.c:35:12: warning: 'return' with a value, in function returning void
+     return t;
+            ^
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem07.c:32:6: note: declared here
+ void find_area(Triangle t)
+      ^~~~~~~~~
+Compilation finished at 11/7/2023, 4:47:32 PM
