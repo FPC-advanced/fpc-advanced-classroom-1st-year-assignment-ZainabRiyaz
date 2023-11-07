@@ -26,7 +26,7 @@ float input()
 float square_root(float n)
 {
     float accy=0.001;
-    float in_guess=n/2;
+    float in_guess=n;
     while((in_guess*in_guess)-n>accy)
     {
         in_guess=(in_guess+n/in_guess)/2;
