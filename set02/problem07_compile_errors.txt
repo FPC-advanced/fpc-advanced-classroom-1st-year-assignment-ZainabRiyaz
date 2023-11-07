@@ -35,3 +35,18 @@ c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
  void find_area(Triangle t)
       ^~~~~~~~~
 Compilation finished at 11/7/2023, 4:47:32 PM
+Compilation started at 11/7/2023, 4:57:39 PM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem07.c: In function 'find_area':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem07.c:34:6: error: 't' is a pointer; did you mean to use '->'?
+     t.area = 0.5*t.base*t.altitude;
+      ^
+      ->
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem07.c:34:19: error: 't' is a pointer; did you mean to use '->'?
+     t.area = 0.5*t.base*t.altitude;
+                   ^
+                   ->
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem07.c:34:26: error: 't' is a pointer; did you mean to use '->'?
+     t.area = 0.5*t.base*t.altitude;
+                          ^
+                          ->
+Compilation finished at 11/7/2023, 4:57:41 PM

@@ -7,14 +7,14 @@ typedef struct _triangle {
 } Triangle;
 
 Triangle input_triangle();
-void find_area(Triangle t);
+void find_area(Triangle *t);
 void output(Triangle t);
 
 int main()
 {
     Triangle tri;
     tri=input_triangle();
-    tri.area=find_area(tri);
+    find_area(&tri);
     output(tri);
     return 0;
 }
@@ -29,10 +29,9 @@ Triangle input_triangle()
     return x;
 }
 
-Triangle find_area(Triangle t)
+void find_area(Triangle *t)
 {
     t.area = 0.5*t.base*t.altitude;
-    return t;
 }
 
 void output(Triangle t)
