@@ -7,3 +7,7 @@ No executable file now.
 No symbol file now.
 +file problem06.c
 problem06.c: No such file or directory.
++cd set02
+Working directory C:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02.
++file problem06.c
+"C:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02/problem06.c": not in executable format: File format not recognized
