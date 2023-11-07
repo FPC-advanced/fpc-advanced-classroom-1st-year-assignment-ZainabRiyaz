@@ -14,7 +14,7 @@ int main()
 {
     Triangle tri;
     tri=input_triangle();
-    find_area(tri);
+    tri.area=find_area(tri);
     output(tri);
     return 0;
 }
@@ -29,7 +29,7 @@ Triangle input_triangle()
     return x;
 }
 
-void find_area(Triangle t)
+Triangle find_area(Triangle t)
 {
     t.area = 0.5*t.base*t.altitude;
     return t;
