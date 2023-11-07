@@ -12,6 +12,7 @@ int main()
 {
     Triangle tri;
     tri=input_triangle();
+    printf("%f %f",tri.base,tri.altitude);
     return 0;
 }
 
