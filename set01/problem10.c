@@ -41,7 +41,6 @@ int stringcompare(char *string1, char *string2)
         else{
             flag=0;
         }
-    i++;
     }
     return flag;
 }
