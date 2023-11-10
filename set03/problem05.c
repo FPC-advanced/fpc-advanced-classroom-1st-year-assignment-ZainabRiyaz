@@ -32,6 +32,7 @@ void init_array(int n, int a[n])
     {
         a[i]=i+1;
     }
+    printf(a[n]);
 }
 
 void erotosthenes_sieve(int n, int a[n])
