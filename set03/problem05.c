@@ -30,8 +30,7 @@ void init_array(int n, int a[n])
 {
     for(int i=0;i<n;i++)
     {
-        printf("Enter the elements of the array: ");
-        scanf("%d",&a[i]);
+        a[i]=i+1;
     }
 }
 
