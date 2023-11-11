@@ -2,3 +2,5 @@ Compilation started at 11/11/2023, 8:48:16 PM
 c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 11/11/2023, 8:48:22 PM
+Compilation started at 11/11/2023, 8:48:57 PM
+Compilation finished at 11/11/2023, 8:49:01 PM
