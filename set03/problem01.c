@@ -20,10 +20,10 @@ void input(float *x1, float *y1, float *x2, float *y2)
 {
     printf("Input the first x coordinate: ");
     scanf("%f",x1);
-    printf("Input the secomd x coordinate: ");
-    scanf("%f",x2);
     printf("Input the first y coordinate: ");
     scanf("%f",y1);
+    printf("Input the second x coordinate: ");
+    scanf("%f",x2);
     printf("Input the second y coordinate: ");
     scanf("%f",y2);
 }
