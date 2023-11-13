@@ -1,6 +1,7 @@
 /*7. Write a program to find the length of a line*/
 
 #include <stdio.h>
+#include <math.h>
 
 typedef struct point {
     float x, y;
@@ -13,13 +14,16 @@ typedef struct line {
 
 Point input_point();
 Line input_line();
+void find_length(Line *l);
+void output(Line l);
 
 
 int main()
 {
     Line l;
     l=input_line();
-    printf("%f and %f",l.p1,l.p2);
+    find_length(&l);
+    output(l);
     return 0;
 }
 
@@ -36,12 +40,18 @@ Point input_point()
 
 Line input_line()
 {
-    Point p1,p2;
-    p1=input_point();
-    p2=input_point();
     Line l;
-    l.p1=p1;
-    l.p2=p2;
+    l.p1=input_point();
+    l.p2=input_point();
     return l;
 }
 
+void find_length(Line *l)
+{
+    l->distance=sqrt((l->p2.x-l->p1.x)*(l->p2.x-l->p1.x)+(l->p2.y-l->p1.y)*(l->p2.y-l->p1.y));
+}
+
+void output(Line l)
+{
+    printf("The distance between the points is %f",l.distance);
+}
