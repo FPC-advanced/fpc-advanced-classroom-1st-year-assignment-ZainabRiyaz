@@ -76,6 +76,7 @@ void find_perimeter(Polygon *p)
             distance+=find_distance(p->p[i],p->p[0]);
         }
     }
+    printf("%f",distance);
     p->perimeter=distance;
 }
 
