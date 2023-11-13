@@ -4,3 +4,37 @@ collect2.exe: error: ld returned 1 exit status
 Compilation finished at 11/11/2023, 8:48:22 PM
 Compilation started at 11/11/2023, 8:48:57 PM
 Compilation finished at 11/11/2023, 8:49:01 PM
+Compilation started at 11/11/2023, 9:28:02 PM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem06.c: In function 'sub_str_index':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem06.c:32:10: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+     index=strstr(string,substring);
+          ^
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem06.c: In function 'output':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem06.c:38:14: warning: comparison between pointer and integer
+     if (index!=NULL)
+              ^~
+Compilation finished at 11/11/2023, 9:28:07 PM
+Compilation started at 11/11/2023, 9:28:47 PM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem06.c: In function 'main':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem06.c:14:16: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char index=NULL;
+                ^~~~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem06.c: In function 'sub_str_index':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem06.c:32:10: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+     index=strstr(string,substring);
+          ^
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem06.c: In function 'output':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem06.c:38:14: warning: comparison between pointer and integer
+     if (index!=NULL)
+              ^~
+Compilation finished at 11/11/2023, 9:28:51 PM
+Compilation started at 11/11/2023, 9:34:10 PM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem06.c: In function 'sub_str_index':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem06.c:35:22: warning: comparison between pointer and integer
+         if (string[i]==ptr)
+                      ^~
+Compilation finished at 11/11/2023, 9:34:14 PM
+Compilation started at 11/11/2023, 9:35:24 PM
+Compilation finished at 11/11/2023, 9:35:27 PM
+Compilation started at 11/11/2023, 9:36:51 PM
+Compilation finished at 11/11/2023, 9:36:54 PM
