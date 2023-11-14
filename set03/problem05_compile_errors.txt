@@ -108,3 +108,7 @@ Compilation started at 11/14/2023, 1:58:59 PM
 Compilation finished at 11/14/2023, 1:59:02 PM
 Compilation started at 11/14/2023, 2:12:11 PM
 Compilation finished at 11/14/2023, 2:12:15 PM
+Compilation started at 11/14/2023, 2:14:18 PM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/14/2023, 2:14:21 PM
