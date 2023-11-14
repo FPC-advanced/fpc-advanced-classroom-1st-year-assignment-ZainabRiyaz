@@ -27,24 +27,29 @@ void input_string(char* a, char* b)
 
 int sub_str_index(char* string, char* substring)
 {
-    int index;   
+    int check=0,index;
     for(int i=0;i<strlen(string);i++)
     {
-        for(int j=0;j<strlen(substring);j++)
+        if (string[i]==substring[0])
         {
-            if (string[i+j]!=substring[j])
+            check=1;
+            for(int j=1;j<strlen(substring);j++)
             {
-                index=-1;
-                break;
-            }
-            else
-            {
-                index=i;
+                if (string[i+j]!=substring[j])
+                {
+                    check=0;
+                    break;
+                }
             }
         }
-        if(index!=-1)
+        if (check==1)
         {
+            index=i;
             break;
+        }
+        else 
+        {
+            index=-1;
         }
     }
     return index;
