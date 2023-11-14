@@ -50,10 +50,6 @@ void erotosthenes_sieve(int n, int a[n])
         {
             a[i]=0;
         }
-        else
-        {
-            continue;
-        }
         }
     }
 }
