@@ -27,7 +27,7 @@ void input_string(char* a, char* b)
 
 int sub_str_index(char* string, char* substring)
 {
-    int index=0;
+    int index=-1;
     for(int i=0;i<strlen(string);i++)
     {
         index=-1;
