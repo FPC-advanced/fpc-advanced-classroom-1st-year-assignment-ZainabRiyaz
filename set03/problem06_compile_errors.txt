@@ -50,3 +50,10 @@ Compilation started at 11/14/2023, 12:17:17 PM
 Compilation finished at 11/14/2023, 12:17:22 PM
 Compilation started at 11/14/2023, 12:19:05 PM
 Compilation finished at 11/14/2023, 12:19:11 PM
+Compilation started at 11/14/2023, 12:27:51 PM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem06.c: In function 'sub_str_index':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem06.c:48:12: error: 'index' undeclared (first use in this function)
+     return index;
+            ^~~~~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem06.c:48:12: note: each undeclared identifier is reported only once for each function it appears in
+Compilation finished at 11/14/2023, 12:27:54 PM
