@@ -38,3 +38,11 @@ Compilation started at 11/11/2023, 9:35:24 PM
 Compilation finished at 11/11/2023, 9:35:27 PM
 Compilation started at 11/11/2023, 9:36:51 PM
 Compilation finished at 11/11/2023, 9:36:54 PM
+Compilation started at 11/14/2023, 12:16:10 PM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem06.c: In function 'sub_str_index':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem06.c:30:19: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+     for(int i=0;i<strlen(string);i++)
+                   ^~~~~~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem06.c:30:19: warning: incompatible implicit declaration of built-in function 'strlen'
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem06.c:30:19: note: include '<string.h>' or provide a declaration of 'strlen'
+Compilation finished at 11/14/2023, 12:16:15 PM

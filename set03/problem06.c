@@ -1,8 +1,6 @@
 /*6. Write a program to find the index of a substring of a string*/
 
-/*strstr(string,substring) is used for finding a string in another string where as strchr(string,char) is used for finding a char in a string.*/
 #include <stdio.h>
-#include <string.h>
 
 void input_string(char *a, char *b);
 int sub_str_index(char *string, char *substring);
@@ -10,31 +8,42 @@ void output(char *string, char *substring, int index);
 
 int main()
 {
-    char sub,string;
-    int index=0;
-    input_string(&string,&sub);
-    index=sub_str_index(&string,&sub);
-    output(&string,&sub,index);
+    char string,substring;
+    input_string(&string,&substring);
+    int index;
+    index=sub_str_index(&string,&substring);
+    output(&string,&substring,index);
     return 0;
 }
 
-void input_string(char *a, char *b)
+void input_string(char* a, char* b)
 {
-    printf("Please input the main string: ");
+    printf("Input the string: ");
     scanf("%s",a);
-    printf("Please input the substring to find string: ");
+    printf("Input the substring: ");
     scanf("%s",b);
 }
 
-int sub_str_index(char *string, char *substring)
+int sub_str_index(char* string, char* substring)
 {
     int index=0;
-    char *ptr=strstr(string,substring);
     for(int i=0;i<strlen(string);i++)
     {
-        if (&string[i]==ptr)
+        for(int j=0;j<strlen(substring);j++)
         {
-            index=i;
+            if (string[i+j]==substring[j])
+            {
+                index=i;
+            }
+            else
+            {
+                index=-1;
+                break;
+            }
+        }
+        if (index!=-1)
+        {
+            break;
         }
     }
     return index;
@@ -42,12 +51,11 @@ int sub_str_index(char *string, char *substring)
 
 void output(char *string, char *substring, int index)
 {
-    if (index!=0)
+    if (index!=-1){
+    printf("The index of '%s' in '%s' is %d",substring,string,index);
+    }
+    else
     {
-        printf("The substring %s in string %s is at index %d",substring,string,index);
-}
-else 
-{
-    printf("Substring %s not found in string %s",substring,string);
-}
+        printf("Strings unmatched");
+    }
 }
