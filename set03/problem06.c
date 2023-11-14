@@ -27,7 +27,7 @@ void input_string(char* a, char* b)
 
 int sub_str_index(char* string, char* substring)
 {
-    int check=0,index;
+    int check=0,index=0;
     for(int i=0;i<strlen(string);i++)
     {
         if (string[i]==substring[0])
@@ -46,10 +46,6 @@ int sub_str_index(char* string, char* substring)
         {
             index=i;
             break;
-        }
-        else 
-        {
-            index=-1;
         }
     }
     return index;
