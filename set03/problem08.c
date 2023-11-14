@@ -64,7 +64,7 @@ float find_distance(Point a, Point b)
 
 void find_perimeter(Polygon *p)
 {
-    float distance;
+    float distance=0.0;
     for(int i=0;i<p->sides;i++)
     {
         if(i!=p->sides-1)
@@ -76,7 +76,6 @@ void find_perimeter(Polygon *p)
             distance+=find_distance(p->p[i],p->p[0]);
         }
     }
-    printf("%f",distance);
     p->perimeter=distance;
 }
 
