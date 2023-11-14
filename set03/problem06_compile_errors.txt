@@ -46,3 +46,5 @@ c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
 c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem06.c:30:19: warning: incompatible implicit declaration of built-in function 'strlen'
 c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem06.c:30:19: note: include '<string.h>' or provide a declaration of 'strlen'
 Compilation finished at 11/14/2023, 12:16:15 PM
+Compilation started at 11/14/2023, 12:17:17 PM
+Compilation finished at 11/14/2023, 12:17:22 PM
