@@ -37,13 +37,20 @@ void init_array(int n, int a[n])
 
 void erotosthenes_sieve(int n, int a[n])
 {
-    for(int i=0;i<n;i++)
+    for(int i=2,j=0;j<n,i<n;i++,j++)
     {
-        for(int j=0;j<n;j++)
+        if(a[j]==0)
         {
-            if(a[j]%a[i]==0)
+            continue;
+        }
+        else
+        {
+            for(int k=0;k<n;k++)
             {
-                a[j]=0;
+                if(a[k]%i==0 && a[k]!=i)
+                {
+                    a[k]=0;
+                }
             }
         }
     }
