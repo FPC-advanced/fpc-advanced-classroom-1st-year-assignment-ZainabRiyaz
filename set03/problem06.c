@@ -30,10 +30,9 @@ int sub_str_index(char* string, char* substring)
     int index;   
     for(int i=0;i<strlen(string);i++)
     {
-        int k=i;
         for(int j=0;j<strlen(substring);j++)
         {
-            if (string[k]!=substring[j])
+            if (string[i+j]!=substring[j])
             {
                 index=-1;
                 break;
@@ -41,8 +40,11 @@ int sub_str_index(char* string, char* substring)
             else
             {
                 index=i;
-                k++;
             }
+        }
+        if(index!=-1)
+        {
+            break;
         }
     }
     return index;
