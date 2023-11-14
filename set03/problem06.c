@@ -30,6 +30,7 @@ int sub_str_index(char* string, char* substring)
     int index=0;
     for(int i=0;i<strlen(string);i++)
     {
+        index=-1;
         for(int j=0;j<strlen(substring);j++)
         {
             if (string[i+j]==substring[j])
