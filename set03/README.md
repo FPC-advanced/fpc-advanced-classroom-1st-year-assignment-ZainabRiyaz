@@ -123,7 +123,8 @@ void output(char *string, char *substring, int index);
 ***Input***
 ```
 helloworldhello
-world
+world1
+
 ```
 
 ***Output***
