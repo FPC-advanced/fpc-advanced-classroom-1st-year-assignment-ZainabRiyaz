@@ -12,65 +12,69 @@ int main()
     int n;
     n=input_array_size();
     int a[n];
-    init_array(n,a[n]);
-    erotosthenes_sieve(n,a[n]);
-    output(n,a[n]);
+    init_array(n,a);
+    erotosthenes_sieve(n,a);
+    output(n,a);
     return 0;
 }
 
 int input_array_size()
 {
     int n;
-    printf("Enter the size of the array: ");
+    printf("Enter the array size: ");
     scanf("%d",&n);
     return n;
 }
 
 void init_array(int n, int a[n])
 {
-    for(int i=0;i<n;i++)
+    a[0]=1;
+    for(int i=1;i<n;i++)
     {
         a[i]=i+1;
     }
-    printf(a[n]);
 }
 
 void erotosthenes_sieve(int n, int a[n])
 {
-    for(int i=2,j=0;j<n,i<n;i++,j++)
+    for(int i=1;i<n;i++)
     {
-        if(a[j]==0)
+        if (a[i]==0)
         {
             continue;
         }
         else
         {
-            for(int k=0;k<n;k++)
-            {
-                if(a[k]%i==0 && a[k]!=i)
-                {
-                    a[k]=0;
-                }
-            }
+        int k=i+1;
+        if(a[i]%k==0)
+        {
+            a[i]=0;
+        }
+        else
+        {
+            continue;
+        }
         }
     }
 }
 
 void output(int n, int a[n])
 {
-    printf("The prime numbers are: ");
-    for(int i=0;i<n;i++)
+    for(int i=1;i<n;i++)
     {
-        if(a[i]!=0)
-        {
-            printf("%d",a[i]);
-        }
-        else
+        if(a[i]==0)
         {
             continue;
         }
+        else
+        {
+            printf("%d",a[i]);
+        }
     }
-
 }
+
+
+
+
 
 

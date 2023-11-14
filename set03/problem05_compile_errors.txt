@@ -98,3 +98,5 @@ c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is o
  _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
                                       ^~~~~~
 Compilation finished at 11/14/2023, 1:37:36 PM
+Compilation started at 11/14/2023, 1:52:18 PM
+Compilation finished at 11/14/2023, 1:52:21 PM
