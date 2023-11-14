@@ -44,7 +44,6 @@ int sub_str_index(char* string, char* substring)
         }
         if (check==1)
         {
-            index=i;
             break;
         }
     }
