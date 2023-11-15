@@ -1,0 +1,16 @@
++l
+1	// 1. Write a C program to print your name.//
+2	
+3	#include <stdio.h>
+4	int main()
+5	{
+6	    printf("Zainab Riyaz");
+7	    return 0;
+8	}+run
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01/./problem01.exe 
+[New Thread 2552.0x3cb0]
+[New Thread 2552.0x2ff4]
+[Inferior 1 (process 2552) exited normally]
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
