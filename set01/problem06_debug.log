@@ -1,2 +1,31 @@
 +b main
 Breakpoint 1 at 0x40146f: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem06.c, line 12.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01/./problem06.exe 
+[New Thread 8488.0x2db4]
+[New Thread 8488.0x370]
+
+Breakpoint 1, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem06.c:12
+12	    input(&a,&b,&c);
++n
+13	    compare(a,b,c,&largest);
++p a
+$1 = 34
++p b
+$2 = 54
++p c
+$3 = 12
++n
+14	    output(a,b,c,largest);
++p largest
+$4 = 54
++n
+15	    return 0;
++n
+16	}
++n
+0x00401288 in __register_frame_info ()
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
