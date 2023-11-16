@@ -1,0 +1,65 @@
++l
+2	
+3	#include <stdio.h>
+4	
+5	int input_array_size();
+6	void input_array(int n, int a[n]);
+7	int sum_n_array(int n, int a[n]);
+8	void output(int n, int a[n],int sum);
+9	
+10	int main()
+11	{
++b 39
+Breakpoint 1 at 0x40159a: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem08.c, line 39.
++b main
+Breakpoint 2 at 0x401477: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem08.c, line 11.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01/./problem08.exe 
+[New Thread 10588.0x1ba8]
+[New Thread 10588.0x209c]
+
+Breakpoint 2, 0x00401477 in main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem08.c:11
+11	{
++n
+12	    int n,sum=0;
++n
+13	    n=input_array_size();
++n
+14	    int a[n];
++p n
+$1 = 5
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 11/16/2023, 4:44:56 PM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++n
+15	    input_array(n,a);
++n
+16	    sum=sum_n_array(n,a);
++n
+
+Breakpoint 1, sum_n_array (n=5, a=0x61fedc)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem08.c:41
+41	    int i=0,sum=0;
++p sum
+$2 = 4214914
++n
+42	    for(i=0;i<n;i++)
++n
+44	        sum+=a[i];
++n
+42	    for(i=0;i<n;i++)
++n
+44	        sum+=a[i];
++p sum
+$3 = 23
++n
+42	    for(i=0;i<n;i++)
++n
+44	        sum+=a[i];
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
