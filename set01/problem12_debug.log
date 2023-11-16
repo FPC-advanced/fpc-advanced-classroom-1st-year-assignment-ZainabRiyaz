@@ -12,3 +12,9 @@ Breakpoint 1, 0x00401477 in main ()
 19	    n=get_n();
 +n
 20	    Co c[n],result;
++p n
+$1 = 4
++n
+21	    input_n_Co(n,c);
++n
+22	    result=add_n_Co(n,c);
