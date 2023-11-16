@@ -9,7 +9,7 @@ void output(char *string1, char *string2, int result);
 
 int main()
 {
-    char str1,str2;
+    char str1[100],str2[100];
     input_two_strings(&str1,&str2);
     int result;
     result=stringcompare(&str1,&str2);
