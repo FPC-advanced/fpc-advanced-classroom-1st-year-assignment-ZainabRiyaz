@@ -11,3 +11,7 @@
 11	    a=input();
 +b main
 Breakpoint 1 at 0x40146e: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem03.c, line 11.
++b 29
+Breakpoint 2 at 0x4014f2: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem03.c, line 29.
++b 22
+Breakpoint 3 at 0x4014cd: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem03.c, line 22.
