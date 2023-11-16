@@ -78,3 +78,10 @@ Breakpoint 1, main ()
 6	    int num1,num2,sum=0;
 +n
 7	    printf("Please enter the first number: ",&num1);
++10
+Undefined command: "10".  Try "help".
++n
+8	    scanf("%d",&num1);
++r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) Program not restarted.
