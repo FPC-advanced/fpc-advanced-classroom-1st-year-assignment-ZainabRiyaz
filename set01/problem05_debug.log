@@ -1,0 +1,11 @@
++l
+3	#include <stdio.h>
+4	
+5	int input();
+6	int compare(int a, int b, int c);
+7	void output(int a, int b, int c, int largest);
+8	
+9	int main()
+10	{
+11	    int a,b,c,largest;
+12	    a=input();
