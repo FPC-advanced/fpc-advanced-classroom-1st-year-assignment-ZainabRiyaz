@@ -51,3 +51,30 @@ Breakpoint 1, main ()
 7	    printf("Please enter the first number: ",&num1);
 +n
 8	    scanf("%d",&num1);
++n
+9	    printf("Please enter the second number: ",&num2);
++n
+10	    scanf("%d",&num2);
++cd "c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01"
+"c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01": Invalid argument.
++gdb ./problem02
+Undefined command: "gdb".  Try "help".
++c
+Continuing.
+[Inferior 1 (process 16316) exited normally]
++set logging file problem02_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem02_debug.log.
++set trace-commands on
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01/./problem02.exe 
+[New Thread 3912.0xa20]
+[New Thread 3912.0x3858]
+
+Breakpoint 1, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem02.c:6
+6	    int num1,num2,sum=0;
++n
+7	    printf("Please enter the first number: ",&num1);
