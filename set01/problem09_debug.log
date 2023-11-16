@@ -23,3 +23,37 @@ Breakpoint 1, square_root (n=33)
 28	    float accy=0.001;
 +p sqroot
 No symbol "sqroot" in current context.
++n
+29	    float in_guess=n;
++n
+30	    while((in_guess*in_guess)-n>accy)
++n
+32	        in_guess=(in_guess+n/in_guess)/2;
++n
+30	    while((in_guess*in_guess)-n>accy)
++n
+32	        in_guess=(in_guess+n/in_guess)/2;
++p in_guess
+$3 = 17
++r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01/./problem09.exe 
+[New Thread 5876.0x40e0]
+[New Thread 5876.0x1fa4]
+
+Breakpoint 2, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem09.c:12
+12	    num=input();
++n
+13	    sqroot=square_root(num);
++n
+
+Breakpoint 1, square_root (n=54)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem09.c:28
+28	    float accy=0.001;
++n
+29	    float in_guess=n;
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
