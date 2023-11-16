@@ -1,0 +1,29 @@
++l
+4	#include <string.h>
+5	
+6	void input_two_strings(char *string1, char *string2);
+7	int stringcompare(char *string1, char *string2);
+8	void output(char *string1, char *string2, int result);
+9	
+10	int main()
+11	{
+12	    char str1[100],str2[100];
+13	    input_two_strings(&str1,&str2);
++b main
+Breakpoint 1 at 0x401471: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem10.c, line 13.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01/./problem10.exe 
+[New Thread 9436.0x3328]
+[New Thread 9436.0x804]
+
+Breakpoint 1, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem10.c:13
+13	    input_two_strings(&str1,&str2);
++n
+15	    result=stringcompare(&str1,&str2);
++p str1
+$1 = "zainu\000a\000=|\017v\b\000\000\000}\201\016vc\201\016vÕ\201Ÿ\021à\022@\000à\022@\000\000\000\000\000À\032@\000Ðþa\000\bÿa\000Ìÿa\000pá\016vQ ígþÿÿÿ\bÿa\000m‚\016vÀ\032@\000Tÿa\000\033\033@\000À\032@\000\b\026{\000\000\000\000"
++p str2
+$2 = "zainf\000a\000’~\rv\000\000{\000\000\000\000\000\220\f{\000\201\201Ÿ\021\b\000\000\000\220\f{\000\230\f{\000à\022@\000\060\024@\000\001\000\000\000?‚\016v\200\000\000\000lþa\000œ\f{\000¤þa\000à\022@\000À\032@\000\000\000\000\000?‚\016vœ\f{\000¼þa\000u‡\017v"
++n
+16	    output(&str1,&str2,result);
