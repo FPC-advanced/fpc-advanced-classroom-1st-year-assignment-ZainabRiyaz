@@ -26,3 +26,28 @@ Breakpoint 1, main ()
 8	    scanf("%d",&num1);
 +p num1
 $1 = 0
++n
+9	    printf("Please enter the second number: ",&num2);
++gdb ./problem02
+Undefined command: "gdb".  Try "help".
++c
+Continuing.
+[Inferior 1 (process 15844) exited normally]
++set logging file problem02_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem02_debug.log.
++set trace-commands on
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01/./problem02.exe 
+[New Thread 16316.0x34e8]
+[New Thread 16316.0x356c]
+
+Breakpoint 1, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem02.c:6
+6	    int num1,num2,sum=0;
++n
+7	    printf("Please enter the first number: ",&num1);
++n
+8	    scanf("%d",&num1);
