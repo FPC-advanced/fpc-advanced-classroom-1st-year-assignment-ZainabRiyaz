@@ -15,3 +15,22 @@ Breakpoint 1 at 0x40146e: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-
 Breakpoint 2 at 0x4014f2: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem03.c, line 29.
 +b 22
 Breakpoint 3 at 0x4014cd: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem03.c, line 22.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01/./problem03.exe 
+[New Thread 13548.0x2ea4]
+[New Thread 13548.0x1de4]
+
+Breakpoint 1, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem03.c:11
+11	    a=input();
++n
+
+Breakpoint 3, input ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem03.c:22
+22	    scanf("%d",&a);
++n
+23	    return a;
++p a
+$1 = 20
++n
+24	}
