@@ -20,3 +20,9 @@ Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-clas
 Breakpoint 1, main ()
     at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem02.c:6
 6	    int num1,num2,sum=0;
++n
+7	    printf("Please enter the first number: ",&num1);
++n
+8	    scanf("%d",&num1);
++p num1
+$1 = 0
