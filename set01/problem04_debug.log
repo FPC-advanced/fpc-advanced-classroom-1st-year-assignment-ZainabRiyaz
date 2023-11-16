@@ -1,0 +1,53 @@
++l
+3	#include <stdio.h>
+4	
+5	void input(int *a, int *b);
+6	void add(int a, int b, int *sum);
+7	void output(int a, int b, int sum);
+8	
+9	int main()
+10	{
+11	    int a,b,sum;
+12	    input(&a,&b);
++b main
+Breakpoint 1 at 0x40146e: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem04.c, line 12.
++b 28
+Breakpoint 2 at 0x40150b: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem04.c, line 28.
++r 
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01/./problem04.exe 
+[New Thread 11232.0x2b30]
+[New Thread 11232.0xcb8]
+
+Breakpoint 1, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem04.c:12
+12	    input(&a,&b);
++n
+13	    add(a,b,&sum);
++p a
+$1 = 25
++p b
+$2 = 30
++n
+
+Breakpoint 2, add (a=25, b=30, sum=0x61ff14)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem04.c:28
+28	    *sum=a+b;
++n
+29	}
++p sum
+$3 = (int *) 0x61ff14
++n
+main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem04.c:14
+14	    output(a,b,sum);
++p sum
+$4 = 55
++n
+15	    return 0;
++n
+16	}
++n
+0x00401288 in __register_frame_info ()
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
