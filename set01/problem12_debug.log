@@ -1,0 +1,14 @@
++b main
+Breakpoint 1 at 0x401477: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem12.c, line 17.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01/./problem12.exe 
+[New Thread 11376.0x2ccc]
+[New Thread 11376.0x1df0]
+
+Breakpoint 1, 0x00401477 in main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem12.c:17
+17	{
++n
+19	    n=get_n();
++n
+20	    Co c[n],result;
