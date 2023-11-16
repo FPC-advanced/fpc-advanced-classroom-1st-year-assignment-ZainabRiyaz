@@ -1,0 +1,13 @@
++l
+2	
+3	#include <stdio.h>
+4	int input();
+5	int add(int a, int b);
+6	void output(int a, int b, int sum);
+7	
+8	int main()
+9	{
+10	    int a,b,sum;
+11	    a=input();
++b main
+Breakpoint 1 at 0x40146e: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem03.c, line 11.
