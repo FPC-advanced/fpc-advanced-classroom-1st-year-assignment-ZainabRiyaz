@@ -63,3 +63,15 @@ $3 = 23
 +set logging enabled off
 Undefined set logging command: "enabled off".  Try "help set logging".
 +set loggin off
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01/./problem08.exe 
+[New Thread 17196.0x42a8]
+[New Thread 17196.0x960]
+[Inferior 1 (process 17196) exited normally]
++n
+The program is not being run.
++n
+The program is not being run.
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
