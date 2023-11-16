@@ -9,3 +9,38 @@
 10	{
 11	    int a,b,c,largest;
 12	    a=input();
++b main
+Breakpoint 1 at 0x40146e: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem05.c, line 12.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01/./problem05.exe 
+[New Thread 9844.0xc04]
+[New Thread 9844.0x42b4]
+
+Breakpoint 1, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set01\problem05.c:12
+12	    a=input();
++n
+13	    b=input();
++n
+14	    c=input();
++n
+15	    largest=compare(a,b,c);
++p a
+$1 = 34
++p b
+$2 = 43
++p c
+$3 = 21
++n
+16	    output(a,b,c,largest);
++p largest
+$4 = 43
++n
+17	    return 0;
++n
+18	}
++n
+0x00401288 in __register_frame_info ()
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
