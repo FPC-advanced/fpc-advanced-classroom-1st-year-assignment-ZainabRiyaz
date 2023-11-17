@@ -22,3 +22,22 @@ Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-clas
 Breakpoint 1, main ()
     at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem01.c:10
 10	    input(&b,&h);
++n
+11	    find_area(b,h,&area);
++p b
+$1 = 1
++p h
+$2 = 2
++n
+12	    output(b,h,area);
++p area
+$3 = 1
++n
+13	    return 0;
++n
+14	}
++n
+0x00401288 in __register_frame_info ()
++Pset logging enabled off
+Undefined command: "Pset".  Try "help".
++set loggin off
