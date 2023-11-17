@@ -1,0 +1,53 @@
++b 34
+Breakpoint 1 at 0x401504: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem05.c, line 34.
++b main
+Breakpoint 2 at 0x40146e: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem05.c, line 11.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02/./problem05.exe 
+[New Thread 19936.0x2b44]
+[New Thread 19936.0x4d94]
+
+Breakpoint 2, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem05.c:11
+11	    int a,b,gcd=0;
++n
+12	    a=input();
++12
+Undefined command: "12".  Try "help".
++n
+13	    b=input();
++n
+14	    gcd=find_gcd(a,b);
++n
+15	    output(a,b,gcd);
++p gcd
+$1 = 4
++p a
+$2 = 12
++p b
+$3 = 16
++n
+16	    return 0;
++n
+17	}
++n
+0x00401288 in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
++b 34
+Breakpoint 1 at 0x401504: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem05.c, line 34.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02/./problem05.exe 
+[New Thread 11392.0x185c]
+[New Thread 11392.0x3c40]
+[Inferior 1 (process 11392) exited normally]
++n
+The program is not being run.
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
