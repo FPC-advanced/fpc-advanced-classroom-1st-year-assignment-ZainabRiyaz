@@ -11,3 +11,17 @@
 11	{
 +b 51
 Breakpoint 1 at 0x4015de: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c, line 51.
++b 34
+Breakpoint 2 at 0x401551: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c, line 34.
++b 53
+Breakpoint 3 at 0x4015e4: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c, line 53.
++b main
+Breakpoint 4 at 0x401477: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c, line 11.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02/./problem04.exe 
+[New Thread 13572.0x4404]
+[New Thread 13572.0x251c]
+
+Breakpoint 4, 0x00401477 in main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:11
+11	{
