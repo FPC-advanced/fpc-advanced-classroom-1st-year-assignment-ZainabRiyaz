@@ -44,3 +44,23 @@ Breakpoint 2, input_array (n=5, a=0x61fed8)
 $1 = 23
 +n
 33	        printf("Enter the element: ");
++33
+Undefined command: "33".  Try "help".
++n
+
+Breakpoint 2, input_array (n=5, a=0x61fed8)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:34
+34	        scanf("%d",&a[i]);
++n
+31	    for(int i=0;i<n;i++)
++p a[i]
+$2 = 33
++n
+33	        printf("Enter the element: ");
++n
+
+Breakpoint 2, input_array (n=5, a=0x61fed8)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:34
+34	        scanf("%d",&a[i]);
++n
+31	    for(int i=0;i<n;i++)
