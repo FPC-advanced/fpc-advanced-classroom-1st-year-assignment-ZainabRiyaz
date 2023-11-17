@@ -2,3 +2,25 @@
 Breakpoint 1 at 0x401558: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem02.c, line 52.
 +b main
 Breakpoint 2 at 0x40146e: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem02.c, line 11.
++b 25
+Breakpoint 3 at 0x401501: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem02.c, line 25.
++b mai
+Function "mai" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) +b main
+Note: breakpoint 2 also set at pc 0x40146e.
+Breakpoint 4 at 0x40146e: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem02.c, line 11.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02/./problem02.exe 
+[New Thread 16812.0xb2c]
+[New Thread 16812.0x3748]
+
+Breakpoint 2, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem02.c:11
+11	    int a,b,c,result=0;
++n
+12	    a=input_side();
++n
+
+Breakpoint 3, input_side ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem02.c:25
+25	    return s;
