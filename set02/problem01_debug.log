@@ -12,4 +12,13 @@
 +b maib
 Function "maib" not defined.
 Make breakpoint pending on future shared library load? (y or [n]) Please answer y or [n].
-Make breakpoint pending on future shared library load? (y or [n]) 
+Make breakpoint pending on future shared library load? (y or [n]) +b main
+Breakpoint 1 at 0x40146e: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem01.c, line 10.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02/./problem01.exe 
+[New Thread 12860.0x3574]
+[New Thread 12860.0x3af8]
+
+Breakpoint 1, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem01.c:10
+10	    input(&b,&h);
