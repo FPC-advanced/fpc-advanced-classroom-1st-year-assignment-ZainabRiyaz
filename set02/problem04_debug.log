@@ -93,3 +93,12 @@ main ()
 Breakpoint 1, sum_composite_numbers (n=5, a=0x61fed8)
     at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:51
 51	        if(count>2)
++p count
+$3 = 7
++n
+
+Breakpoint 3, sum_composite_numbers (n=5, a=0x61fed8)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:53
+53	            sum+=a[i];
++p sum
+$4 = 0
