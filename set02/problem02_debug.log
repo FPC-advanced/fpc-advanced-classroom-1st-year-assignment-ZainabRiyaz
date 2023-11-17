@@ -24,3 +24,26 @@ Breakpoint 2, main ()
 Breakpoint 3, input_side ()
     at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem02.c:25
 25	    return s;
++p s
+$1 = 5
++n
+26	}
++n
+main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem02.c:13
+13	    b=input_side();
++n
+
+Breakpoint 3, input_side ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem02.c:25
+25	    return s;
++p b
+No symbol "b" in current context.
++p s
+$2 = 4
++n
+26	}
++n
+main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem02.c:14
+14	    c=input_side();
