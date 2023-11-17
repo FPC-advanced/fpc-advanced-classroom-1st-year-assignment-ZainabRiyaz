@@ -104,3 +104,35 @@ Breakpoint 3, sum_composite_numbers (n=5, a=0x61fed8)
 $4 = 0
 +n
 41	    for(int i =0;i<n;i++)
++n
+56	    return sum;
++n
+57	}
++n
+main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:17
+17	    output(sum);
++p sum
+$5 = -348813549
++n
+18	    return 0;
++n
+19	}
++n
+0x00401288 in __register_frame_info ()
++l
+14	    int a[n];;
+15	    input_array(n,a);
+16	    sum=sum_composite_numbers(n,a);
+17	    output(sum);
+18	    return 0;
+19	}
+20	
+21	int input_array_size()
+22	{
+23	    int n;
++b 48
+Breakpoint 5 at 0x4015c0: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c, line 48.
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
