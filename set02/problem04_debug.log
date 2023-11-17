@@ -136,3 +136,125 @@ Breakpoint 5 at 0x4015c0: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-
 +set logging enabled off
 Undefined set logging command: "enabled off".  Try "help set logging".
 +set loggin off
++b 48
+Breakpoint 1 at 0x4015c0: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c, line 48.
++b 53
+Breakpoint 2 at 0x4015e4: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c, line 53.
++b main
+Breakpoint 3 at 0x401477: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c, line 11.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02/./problem04.exe 
+[New Thread 5204.0x4e24]
+[New Thread 5204.0x2464]
+
+Breakpoint 3, 0x00401477 in main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:11
+11	{
++n
+12	    int n,sum=0;
++n
+13	    n=input_array_size();
++n
+14	    int a[n];;
++n
+15	    input_array(n,a);
++n
+16	    sum=sum_composite_numbers(n,a);
++n
+
+Breakpoint 1, sum_composite_numbers (n=5, a=0x61fed8)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:48
+48	                count+=1;
++p count
+$1 = 0
++n
+44	        for(int j=1;j<=a[i];i++)
++p count
+$2 = 1
++n
+46	            if(a[i]%j==0)
++n
+
+Breakpoint 1, sum_composite_numbers (n=5, a=0x61fed8)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:48
+48	                count+=1;
++p count
+$3 = 1
++n
+44	        for(int j=1;j<=a[i];i++)
++n
+46	            if(a[i]%j==0)
++n
+
+Breakpoint 1, sum_composite_numbers (n=5, a=0x61fed8)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:48
+48	                count+=1;
++n
+44	        for(int j=1;j<=a[i];i++)
++n
+46	            if(a[i]%j==0)
++n
+
+Breakpoint 1, sum_composite_numbers (n=5, a=0x61fed8)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:48
+48	                count+=1;
++p count
+$4 = 3
++n
+44	        for(int j=1;j<=a[i];i++)
++n
+46	            if(a[i]%j==0)
++n
+
+Breakpoint 1, sum_composite_numbers (n=5, a=0x61fed8)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:48
+48	                count+=1;
++p count
+$5 = 4
++n
+44	        for(int j=1;j<=a[i];i++)
++n
+46	            if(a[i]%j==0)
++n
+
+Breakpoint 1, sum_composite_numbers (n=5, a=0x61fed8)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:48
+48	                count+=1;
++p count
+$6 = 5
++n
+44	        for(int j=1;j<=a[i];i++)
++n
+46	            if(a[i]%j==0)
++n
+
+Breakpoint 1, sum_composite_numbers (n=5, a=0x61fed8)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:48
+48	                count+=1;
++n
+44	        for(int j=1;j<=a[i];i++)
++n
+46	            if(a[i]%j==0)
++n
+
+Breakpoint 1, sum_composite_numbers (n=5, a=0x61fed8)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:48
+48	                count+=1;
++n
+44	        for(int j=1;j<=a[i];i++)
++n
+51	        if(count>2)
++n
+
+Breakpoint 2, sum_composite_numbers (n=5, a=0x61fed8)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:53
+53	            sum+=a[i];
++p sum
+$7 = 0
++n
+41	    for(int i =0;i<n;i++)
++p sum
+$8 = -2
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
