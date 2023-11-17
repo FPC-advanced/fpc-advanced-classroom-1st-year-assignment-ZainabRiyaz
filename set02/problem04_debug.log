@@ -1,0 +1,13 @@
++l
+2	
+3	#include <stdio.h>
+4	
+5	int input_array_size();
+6	void input_array(int n, int a[n]);
+7	int sum_composite_numbers(int n, int a[n]);
+8	void output(int sum);
+9	
+10	int main()
+11	{
++b 51
+Breakpoint 1 at 0x4015de: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c, line 51.
