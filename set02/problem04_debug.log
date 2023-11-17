@@ -258,3 +258,131 @@ $8 = -2
 +set logging enabled off
 Undefined set logging command: "enabled off".  Try "help set logging".
 +set loggin off
++cd "c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02"
+"c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02": Invalid argument.
++gdb ./problem04
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem04_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem04_debug.log.
++set trace-commands on
++l
+2	
+3	#include <stdio.h>
+4	
+5	int input_array_size();
+6	void input_array(int n, int a[n]);
+7	int sum_composite_numbers(int n, int a[n]);
+8	void output(int sum);
+9	
+10	int main()
+11	{
++b 45
+Breakpoint 1 at 0x4015a5: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c, line 45.
++b mai
+Function "mai" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) +b main
+Breakpoint 2 at 0x401477: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c, line 11.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02/./problem04.exe 
+[New Thread 16448.0x5fc]
+[New Thread 16448.0x4b2c]
+
+Breakpoint 2, 0x00401477 in main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:11
+11	{
++n
+12	    int n,sum=0;
++n
+13	    n=input_array_size();
++n
+14	    int a[n];;
++n
+15	    input_array(n,a);
++n
+16	    sum=sum_composite_numbers(n,a);
++n
+
+Breakpoint 1, sum_composite_numbers (n=5, a=0x61fed8)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:46
+46	            if(a[i]%j==0)
++p a[i]
+$1 = 43
++n
+48	                count+=1;
++n
+44	        for(int j=1;j<=a[i];i++)
++p count
+$2 = 1
++n
+
+Breakpoint 1, sum_composite_numbers (n=5, a=0x61fed8)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:46
+46	            if(a[i]%j==0)
++n
+48	                count+=1;
++p count
+$3 = 1
++n
+44	        for(int j=1;j<=a[i];i++)
++n
+
+Breakpoint 1, sum_composite_numbers (n=5, a=0x61fed8)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:46
+46	            if(a[i]%j==0)
++n
+48	                count+=1;
++p couny
+No symbol "couny" in current context.
++p count
+$4 = 2
++n
+44	        for(int j=1;j<=a[i];i++)
++n
+
+Breakpoint 1, sum_composite_numbers (n=5, a=0x61fed8)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:46
+46	            if(a[i]%j==0)
++P a[i]
+$5 = 55
++n
+48	                count+=1;
++p count
+$6 = 3
++n
+44	        for(int j=1;j<=a[i];i++)
++p [I]
+A syntax error in expression, near `[I]'.
++P a[i]
+$7 = 55
++N
+
+Breakpoint 1, sum_composite_numbers (n=5, a=0x61fed8)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:46
+46	            if(a[i]%j==0)
++N
+48	                count+=1;
++p count
+$8 = 4
++N
+44	        for(int j=1;j<=a[i];i++)
++N
+
+Breakpoint 1, sum_composite_numbers (n=5, a=0x61fed8)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:46
+46	            if(a[i]%j==0)
++p count
+$9 = 5
++N
+48	                count+=1;
++P A[I]
+No symbol "A" in current context.
++P a[i]
+$10 = 4199607
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
