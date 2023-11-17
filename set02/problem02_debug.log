@@ -68,3 +68,27 @@ main ()
 16	    output(a,b,c,result);
 +p result
 $4 = 1
++p
+$5 = 1
++n
+
+Breakpoint 1, output (a=5, b=4, c=5, isscalene=1)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem02.c:52
+52	    if (isscalene==0)
++p isscalene
+$6 = 1
++n
+58	        printf("The triangle with sides %d,%d,%d is not scalene",a,b,c);
++n
+60	}
++n
+main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem02.c:17
+17	    return 0;
++n
+18	}
++n
+0x00401288 in __register_frame_info ()
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
