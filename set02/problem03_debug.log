@@ -1,0 +1,35 @@
++l
+2	
+3	#include <stdio.h>
+4	
+5	int input_number();
+6	int is_composite(int n);
+7	void output(int n, int result);
+8	
+9	int main()
+10	{
+11	    int num,result=0;
++b num
+Function "num" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) Please answer y or [n].
+Make breakpoint pending on future shared library load? (y or [n]) +b 22
+Breakpoint 1 at 0x4014bc: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem03.c, line 22.
++b mai
+Function "mai" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) +b main
+Breakpoint 2 at 0x40146e: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem03.c, line 11.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02/./problem03.exe 
+[New Thread 14632.0x27b0]
+[New Thread 14632.0x4d94]
+
+Breakpoint 2, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem03.c:11
+11	    int num,result=0;
++n
+12	    num=input_number();
++n
+
+Breakpoint 1, input_number ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem03.c:22
+22	    scanf("%d",&num);
