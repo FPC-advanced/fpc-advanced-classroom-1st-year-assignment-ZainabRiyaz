@@ -38,17 +38,17 @@ void input_array(int n, int a[n])
 int sum_composite_numbers(int n, int a[n])
 {
     int sum=0;
-    for(int i=0;i<n;i++)
+    for(int i =0;i<n;i++)
     {
         int count=0;
-        for(int j=1;j<=a[i];j++)
+        for(int j=1;j<=a[i];i++)
         {
             if(a[i]%j==0)
             {
                 count+=1;
             }
         }
-        if (count>2)
+        if(count>2)
         {
             sum+=a[i];
         }
