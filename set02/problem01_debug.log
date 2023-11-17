@@ -1,0 +1,15 @@
++l
+1	/*Write a program to find the area of a triangle.*/
+2	#include <stdio.h>
+3	void input(float *base, float *height);
+4	void find_area(float base , float height, float *area);
+5	void output(float base, float height, float area);
+6	
+7	int main()
+8	{
+9	    float b,h,area;
+10	    input(&b,&h);
++b maib
+Function "maib" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) Please answer y or [n].
+Make breakpoint pending on future shared library load? (y or [n]) 
