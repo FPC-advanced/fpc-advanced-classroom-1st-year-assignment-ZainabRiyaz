@@ -25,3 +25,17 @@ Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-clas
 Breakpoint 4, 0x00401477 in main ()
     at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:11
 11	{
++n
+12	    int n,sum=0;
++n
+13	    n=input_array_size();
++n
+14	    int a[n];;
++n
+15	    input_array(n,a);
++n
+
+Breakpoint 2, input_array (n=5, a=0x61fed8)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem04.c:34
+34	        scanf("%d",&a[i]);
++n
