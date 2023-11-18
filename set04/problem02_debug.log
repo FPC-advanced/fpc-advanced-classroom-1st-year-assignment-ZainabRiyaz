@@ -1,0 +1,27 @@
++b inpu
+Function "inpu" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) +b input
+Breakpoint 1 at 0x401517: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem02.c, line 24.
++b main
+Breakpoint 2 at 0x40146e: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem02.c, line 16.
++n
+The program is not being run.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04/./problem02.exe 
+[New Thread 20428.0x2a88]
+[New Thread 20428.0x2b68]
+
+Breakpoint 2, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem02.c:16
+16	    input(&a,&b,&c);
++n
+
+Breakpoint 1, input (a=0x61ff18, b=0x61ff10, c=0x61ff08)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem02.c:24
+24	    printf("Please input the numerator: ");
++n
+25	    scanf("%d",a->num);
++n
+
+Program received signal SIGSEGV, Segmentation fault.
+0x76124937 in ungetwc () from C:\WINDOWS\SysWOW64\msvcrt.dll
