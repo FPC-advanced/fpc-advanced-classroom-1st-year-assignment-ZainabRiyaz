@@ -38,17 +38,17 @@ void input_array(int n, int a[n])
 int find_largest_index(int n, int a[n])
 {
     int largest,ilarge;
-    for(int i=0;i<n;i++)
+    for(int i=0,j=1;i<n,j<n;i++,j++)
     {
-        if(a[i]>a[i+1])
+        if(a[i]>a[j])
         {
             largest=a[i];
             ilarge=i;
         }
         else
         {
-            largest=a[i+1];
-            ilarge=i+1;
+            largest=a[j];
+            ilarge=j;
         }
     }
     return ilarge;
