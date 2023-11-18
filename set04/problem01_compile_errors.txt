@@ -53,3 +53,17 @@ c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
          res_den=max;
                 ^
 Compilation finished at 11/19/2023, 1:49:50 AM
+Compilation started at 11/19/2023, 1:50:05 AM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem01.c: In function 'add':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem01.c:45:16: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+         res_den=max;
+                ^
+Compilation started at 11/19/2023, 1:50:16 AM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem01.c: In function 'add':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem01.c:45:16: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+         res_den=max;
+                ^
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem01.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/19/2023, 1:50:17 AM
+Compilation finished at 11/19/2023, 1:50:18 AM
