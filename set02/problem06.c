@@ -9,7 +9,7 @@ void output(char *a, char *reverse_a);
 
 int main()
 {
-    char str,rev_str[]="";
+    char str,rev_str;
     input_string(&str);
     str_reverse(&str,&rev_str);
     output(&str,&rev_str);
@@ -19,16 +19,20 @@ int main()
 void input_string(char *a)
 {
     printf("Please input the string: ");
-    scanf("%d",a);
+    scanf("%s",a);
 }
 
 void str_reverse(char *a, char *rev_str)
 {
     int lent= strlen(a);
     int n=lent-1;
-    for(n;n<=0;n--)
+    int i=0;
+    for(int i=0,j=n;i<n,j<=0;i++,j--)
     {
-        rev_str+=a[n];
+        while (a[i]!='\0')
+        {
+            rev_str[i]=a[j];
+        }
     }
 }
 

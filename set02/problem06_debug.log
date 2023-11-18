@@ -1,0 +1,157 @@
++l
+3	#include <stdio.h>
+4	#include <string.h>
+5	
+6	void input_string(char *a);
+7	void str_reverse(char *a, char *rev_str);
+8	void output(char *a, char *reverse_a);
+9	
+10	int main()
+11	{
+12	    char str,rev_str[]="";
++b main
+Breakpoint 1 at 0x40146e: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c, line 12.
++b 31
+Breakpoint 2 at 0x4014f5: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c, line 31.
++b 37
+Breakpoint 3 at 0x401519: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c, line 37.
++b 22
+Breakpoint 4 at 0x4014c0: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c, line 22.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02/./problem06.exe 
+[New Thread 8812.0x4fc0]
+[New Thread 8812.0x4dd4]
+
+Breakpoint 1, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:12
+12	    char str,rev_str[]="";
++n
+13	    input_string(&str);
++n
+
+Breakpoint 4, input_string (a=0x61ff1f "")
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:22
+22	    scanf("%d",a);
++n
+23	}
++p a
+$1 = 0x61ff1f ""
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
++b 28
+Breakpoint 1 at 0x4014e6: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c, line 28.
++b 27
+Breakpoint 2 at 0x4014d8: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c, line 27.
++b 32
+Breakpoint 3 at 0x4014f8: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c, line 32.
++b main
+Breakpoint 4 at 0x40146e: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c, line 13.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02/./problem06.exe 
+[New Thread 6904.0x33d4]
+[New Thread 6904.0x15cc]
+
+Breakpoint 4, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:13
+13	    input_string(&str);
++n
+14	    str_reverse(&str,&rev_str);
++p str
+$1 = 122 'z'
++n
+
+Breakpoint 2, str_reverse (a=0x61ff1f "zainab", rev_str=0x61ff1e ".zainab")
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:27
+27	    int lent= strlen(a);
++p lent
+$2 = 6422303
++n
+
+Breakpoint 1, str_reverse (a=0x61ff1f "zainab", rev_str=0x61ff1e ".zainab")
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:28
+28	    int n=lent-1;
++p n
+$3 = 6422476
++n
+29	    int i=0;
++n
+30	    for(n;n<=0;n--)
++n
+35	}
++n
+main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:15
+15	    output(&str,&rev_str);
++p str
+$4 = 122 'z'
++p rev_str
+$5 = 46 '.'
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
++b 23
+Breakpoint 1 at 0x4014ce: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c, line 23.
++b main
+Breakpoint 2 at 0x40146e: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c, line 13.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02/./problem06.exe 
+[New Thread 13700.0xa88]
+[New Thread 13700.0x3278]
+
+Breakpoint 2, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:13
+13	    input_string(&str);
++n
+
+Breakpoint 1, input_string (a=0x61ff1f "zain")
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:23
+23	    a=a+'/0';
++p str
+No symbol "str" in current context.
++p a
+$1 = 0x61ff1f "zain"
++n
+24	}
++n
+main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:14
+14	    str_reverse(&str,&rev_str);
++step
+str_reverse (a=0x61ff1f "zain", rev_str=0x61ff1e ">zain")
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:28
+28	    int lent= strlen(a);
++p lent
+$2 = 6422303
++n
+29	    int n=lent-1;
++p lent
+$3 = 4
++p n
+$4 = 6422476
++n
+30	    int i=0;
++p n
+$5 = 3
++n
+31	    for(n;n<=0;n--)
++n
+36	}
++n
+main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:15
+15	    output(&str,&rev_str);
++p rev_str
+$6 = 62 '>'
++n
+16	    return 0;
++n
+17	}
++n
+0x00401288 in __register_frame_info ()
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
