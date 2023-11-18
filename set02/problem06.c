@@ -26,11 +26,14 @@ void input_string(char *a)
 void str_reverse(char *a, char *rev_str)
 {
     int lent = strlen(a);
+    int len=lent;
     char change;
+    char s=a;
     for(int i=0;i<lent;i++)
     {
         change=a[i];
-        rev_str[lent-i-1]=change;
+        rev_str[len-1]=change;
+        len--;
     }
 }
 
