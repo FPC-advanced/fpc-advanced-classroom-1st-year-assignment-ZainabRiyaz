@@ -1,0 +1,5 @@
+Compilation started at 11/19/2023, 2:53:09 AM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem04.c:58:1: error: expected identifier or '(' before '{' token
+ {
+ ^
+Compilation finished at 11/19/2023, 2:53:11 AM
