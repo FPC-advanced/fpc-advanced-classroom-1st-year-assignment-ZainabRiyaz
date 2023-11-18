@@ -88,3 +88,11 @@ c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
          tok=strtok(string," ");
             ^
 Compilation finished at 11/19/2023, 3:13:35 AM
+Compilation started at 11/19/2023, 3:15:02 AM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem06.c: In function 'count_words':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem06.c:29:12: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char s=" ";
+            ^~~
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem06.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/19/2023, 3:15:06 AM
