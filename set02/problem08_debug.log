@@ -1,0 +1,90 @@
++b 66
+Breakpoint 1 at 0x401742: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem08.c, line 66.
++b main
+Breakpoint 2 at 0x401479: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem08.c, line 16.
++n
+The program is not being run.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02/./problem08.exe 
+[New Thread 13032.0x2d98]
+[New Thread 13032.0x288c]
+
+Breakpoint 2, 0x00401479 in main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem08.c:16
+warning: Source file is more recent than executable.
+16	{
++n
+18	    n=input_n();
++n
+19	    Triangle t[n],small;
++p n
+$1 = 5
++n
+20	    input_n_triangles(n,t);
++p t
+$2 = 0x61fe94
++n
+21	    find_n_areas(n,t);
++n
+22	    small=find_smallest_triangle(n,t);
++p small
+$3 = {base = 8.9995311e-039, altitude = 8.99980576e-039, area = 7.29561393e+032}
++n
+
+Breakpoint 1, find_smallest_triangle (n=5, t=0x61fe94)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem08.c:66
+66	    return small;
++p small
+$4 = {base = -4873.72461, altitude = 7.00649232e-045, area = 8.99935174e-039}
++n
+67	}
++n
+main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem08.c:23
+23	    output(n,t,small);
++p small
+$5 = {base = -4873.72461, altitude = 7.00649232e-045, area = 8.99935174e-039}
++n
+24	    return 0;
++n
+25	}
++n
+0x00401288 in __register_frame_info ()
++r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02/./problem08.exe 
+[New Thread 17764.0x37fc]
+[New Thread 17764.0x1f34]
+
+Breakpoint 2, 0x00401479 in main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem08.c:16
+16	{
++n
+18	    n=input_n();
++n
+19	    Triangle t[n],small;
++n
+20	    input_n_triangles(n,t);
++n
+21	    find_n_areas(n,t);
++n
+22	    small=find_smallest_triangle(n,t);
++n
+
+Breakpoint 1, find_smallest_triangle (n=2, t=0x61feb4)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem08.c:66
+66	    return small;
++n
+67	}
++n
+main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem08.c:23
+23	    output(n,t,small);
++p small
+$6 = {base = 8.999419e-039, altitude = 2.80259693e-045, area = 5.90635252e-039}
++n
+24	    return 0;
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
