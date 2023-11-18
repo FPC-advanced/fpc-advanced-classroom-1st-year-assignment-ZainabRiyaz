@@ -29,8 +29,7 @@ void input(int *num1, int *den1, int *num2, int *den2)
 
 void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den)
 {
-    int max;
-    *res_num=num1+num2;
+    int max,m1,m2;
     if (den1>den2)
     {
         max=den1;
@@ -50,6 +49,10 @@ void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den)
         max++;
     }
     }
+    m1=*res_den/den1;
+    m2=*res_den/den2;
+    num1=num1*m1;
+    num2=num2*m2;
 }
 
 void output(int num1, int den1, int num2, int den2, int res_num, int res_den)
