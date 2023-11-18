@@ -39,7 +39,6 @@ void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den)
             den1=den2;
             den2=c;
         }
-        gcd=den1;
     }
     else if(den2>den1)
     {
@@ -49,7 +48,14 @@ void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den)
             den2=den1;
             den1=c;
         }
-        gcd=c;
+    }
+    if (den2==0)
+    {
+        gcd=den1;
+    }
+    else if (den1==0)
+    {
+        gcd=den2;
     }
     res_den=(den1*den2)/gcd;
     res_num=num1+num2;
