@@ -26,12 +26,12 @@ void input_string(char *a)
 int count_words(char *string)
 {
     char *tok;
-    int count=1;
+    int count=0;
     while(tok=strtok(string," ")!=NULL)
     {
         string=NULL;
+        count++;
     }
-    count=strlen(tok);
     return count;
 }
 
