@@ -26,7 +26,6 @@ void input_string(char *a)
 int count_words(char *string)
 {
     char *tok;
-    char s=" ";
     int count=1;
     tok=strtok(string," ");
     while(tok!=NULL)
