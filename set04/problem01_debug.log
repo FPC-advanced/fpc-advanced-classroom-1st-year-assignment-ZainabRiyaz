@@ -48,3 +48,60 @@ Program received signal SIGFPE, Arithmetic exception.
 0x004015f7 in add (num1=1, den1=0, num2=1, den2=2, res_num=0x61fefc, res_den=0x61fef8)
     at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem01.c:54
 54	    res_den=(den1*den2)/gcd;
++p res_den
+$5 = (int *) 0x61fef8
++n
+
+Program received signal SIGFPE, Arithmetic exception.
+0x004015f7 in add (num1=1, den1=0, num2=1, den2=2, res_num=0x61fefc, res_den=0x61fef8)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem01.c:54
+54	    res_den=(den1*den2)/gcd;
++n
+[Inferior 1 (process 20672) exited with code 030000000224]
++n
+The program is not being run.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04/./problem01.exe 
+[New Thread 19560.0x3d0c]
+[New Thread 19560.0x3a1c]
+
+Breakpoint 1, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem01.c:12
+12	    input(&n1,&d1,&n2,&d2);
++n
+13	    add(n1,d1,n2,d2,&nr,&dr);
++step
+add (num1=1, den1=2, num2=1, den2=4, res_num=0x61fefc, res_den=0x61fef8)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem01.c:34
+34	    if (den1>den2)
++n
+44	    else if(den2>den1)
++n
+46	        while(den1!=0)
++n
+48	            c=den2%den2;
++p c
+$6 = 8
++n
+49	            den2=den1;
++n
+50	            den1=c;
++n
+46	        while(den1!=0)
++n
+52	        gcd=c;
++p gcd
+$7 = 1980791869
++n
+54	    res_den=(den1*den2)/gcd;
++p gcd
+$8 = 0
++p gcd
+$9 = 0
++git commit -m "committed 11/19/2023, 1:19:34 AM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
