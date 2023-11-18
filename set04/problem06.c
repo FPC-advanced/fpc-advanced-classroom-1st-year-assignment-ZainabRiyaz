@@ -30,8 +30,8 @@ int count_words(char *string)
     while(tok=strtok(string," ")!=NULL)
     {
         string=NULL;
-        count+=1;
     }
+    count=strlen(tok);
     return count;
 }
 
