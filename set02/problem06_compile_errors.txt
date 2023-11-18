@@ -241,3 +241,9 @@ Compilation started at 11/19/2023, 12:50:19 AM
 Compilation finished at 11/19/2023, 12:50:22 AM
 Compilation started at 11/19/2023, 12:51:16 AM
 Compilation finished at 11/19/2023, 12:51:20 AM
+Compilation started at 11/19/2023, 12:53:05 AM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c: In function 'str_reverse':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:31:12: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char s=a;
+            ^
+Compilation finished at 11/19/2023, 12:53:10 AM
