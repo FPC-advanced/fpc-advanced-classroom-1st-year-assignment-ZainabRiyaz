@@ -28,3 +28,41 @@ Breakpoint 3, input_triangle ()
 27	    printf("Enter the height of the triangle: ");
 +n
 28	    scanf("%f",&x.altitude);
++n
+29	    return x;
++n
+30	}
++n
+main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem07.c:17
+17	    find_area(&tri);
++p tri
+$1 = {base = 3, altitude = 2, area = 0}
++n
+
+Breakpoint 1, find_area (t=0x61ff14)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem07.c:34
+34	    t->area = 0.5*t->base*t->altitude;
++p t->area
+$2 = 0
++p t
+$3 = (Triangle *) 0x61ff14
++n
+35	}
++n
+main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem07.c:18
+18	    output(tri);
++p tr
+No symbol "tr" in current context.
++p tri
+$4 = {base = 3, altitude = 2, area = 3}
++n
+19	    return 0;
++n
+20	}
++n
+0x00401288 in __register_frame_info ()
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
