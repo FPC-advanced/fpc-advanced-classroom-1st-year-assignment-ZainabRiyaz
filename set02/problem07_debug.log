@@ -1,0 +1,30 @@
++b 34
+Breakpoint 1 at 0x401527: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem07.c, line 34.
++b 25
+Breakpoint 2 at 0x4014c7: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem07.c, line 25.
++b 26
+Breakpoint 3 at 0x4014d3: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem07.c, line 26.
++b main
+Breakpoint 4 at 0x40146e: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem07.c, line 16.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02/./problem07.exe 
+[New Thread 13352.0x23c8]
+[New Thread 13352.0x32e8]
+
+Breakpoint 4, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem07.c:16
+16	    tri=input_triangle();
++n
+
+Breakpoint 2, input_triangle ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem07.c:25
+25	    printf("Enter the base of the triangle: ");
++n
+
+Breakpoint 3, input_triangle ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem07.c:26
+26	    scanf("%f",&x.base);
++n
+27	    printf("Enter the height of the triangle: ");
++n
+28	    scanf("%f",&x.altitude);
