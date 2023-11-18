@@ -25,7 +25,18 @@ void input_string(char *a)
 //strrev(str)- reverses string using library function.
 void str_reverse(char *a, char *rev_str)
 {
-    rev_str=strrev(a);
+    int lent = strlen(a);
+    char change;
+    for(int i=0;i<lent/2;i++)
+    {
+        change=a[i];
+        a[i]=a[lent-i-1];
+        a[lent-i-1]=change;
+    }
+    for(int i=0;i<lent;i++)
+    {
+        rev_str[i]=a[i];
+    }
 }
 
 void output(char *a, char *reverse_a)
