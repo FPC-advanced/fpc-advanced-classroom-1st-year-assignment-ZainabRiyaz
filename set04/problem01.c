@@ -49,8 +49,8 @@ void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den)
         max++;
     }
     }
-    m1=*res_den/den1;
-    m2=*res_den/den2;
+    m1=max/den1;
+    m2=max/den2;
     num1=num1*m1;
     num2=num2*m2;
 }
