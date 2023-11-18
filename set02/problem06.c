@@ -29,7 +29,8 @@ void str_reverse(char *a, char *rev_str)
     char change;
     for(int i=0;i<lent;i++)
     {
-        rev_str[i]=a[i];
+        change=a[i];
+        rev_str[lent=i=1]=change;
     }
 }
 
