@@ -16,3 +16,12 @@ c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
      res_num=num1+num2;
             ^
 Compilation finished at 11/19/2023, 1:19:57 AM
+Compilation started at 11/19/2023, 1:23:19 AM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem01.c: In function 'add':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem01.c:60:12: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+     res_den=(den1*den2)/gcd;
+            ^
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem01.c:61:12: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+     res_num=num1+num2;
+            ^
+Compilation finished at 11/19/2023, 1:23:24 AM
