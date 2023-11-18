@@ -54,7 +54,7 @@ int find_largest_index(int n, int a[n])
     return ilarge;
 }
 
-void output(int index);
+void output(int index)
 {
     printf("The index is %d",index);
 }
