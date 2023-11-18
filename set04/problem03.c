@@ -45,7 +45,7 @@ int nCr(int n, int r)
     }
     else if(n>r)
     {
-        nCr=factn/factr*factrn;
+        nCr=factn/(factr*factrn);
     }
     return nCr;
 }
