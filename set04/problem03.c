@@ -10,7 +10,7 @@ int main()
 {
     int r,n,res;
     input_n_and_r(&n,&r);
-    nCr(n,r);
+    res=nCr(n,r);
     output(n,r,res);
     return 0;
 }
