@@ -23,3 +23,36 @@ Breakpoint 1, nCr (n=6, r=3)
 50	        nCr=factn/factr*factrn;
 +p factn
 $3 = 720
++p factr
+$4 = 6
++factrn
+Undefined command: "factrn".  Try "help".
++p factrn
+$5 = 6
++n
+30	    while(n!=0)
++p ncr
+No symbol "ncr" in current context.
++n
+32	    for(int i=1;i<=n;i++)
++n
+34	        factn=factn*i;
++n
+32	    for(int i=1;i<=n;i++)
++n
+34	        factn=factn*i;
++n
+32	    for(int i=1;i<=n;i++)
++n
+34	        factn=factn*i;
++n
+32	    for(int i=1;i<=n;i++)
++n
+34	        factn=factn*i;
++n
+32	    for(int i=1;i<=n;i++)
++n
+34	        factn=factn*i;
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
