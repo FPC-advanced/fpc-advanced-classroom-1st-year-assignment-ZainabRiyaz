@@ -53,6 +53,7 @@ void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den)
     m2=max/den2;
     num1=num1*m1;
     num2=num2*m2;
+    *res_num=num1+num2;
 }
 
 void output(int num1, int den1, int num2, int den2, int res_num, int res_den)
