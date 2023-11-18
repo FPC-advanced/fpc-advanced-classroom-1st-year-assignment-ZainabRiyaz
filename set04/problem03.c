@@ -27,8 +27,6 @@ int nCr(int n, int r)
 {
     int factn=1,factr=1,factrn=1,nCr;
     int l=n-r;
-    while(n!=0)
-    {
     for(int i=1;i<=n;i++)
     {
         factn=factn*i;
@@ -48,7 +46,6 @@ int nCr(int n, int r)
     else if(n>r)
     {
         nCr=factn/factr*factrn;
-    }
     }
     return nCr;
 }
