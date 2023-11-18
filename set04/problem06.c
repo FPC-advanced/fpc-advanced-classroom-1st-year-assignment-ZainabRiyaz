@@ -30,10 +30,8 @@ int count_words(char *string)
     tok=strtok(string," ");
     while(tok!=NULL)
     {
-        tok=strtok(string," ");
-        count+=1;
-    }
-    return count;
+        printf("%s\n",tok);
+}
 }
 
 void output(char *string, int no_words)
