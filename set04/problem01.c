@@ -29,36 +29,27 @@ void input(int *num1, int *den1, int *num2, int *den2)
 
 void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den)
 {
-    int c,gcd,lcm;
-    /*finding lcm*/
+    int max;
+    *res_num=num1+num2;
     if (den1>den2)
     {
-        while(den2!=0)
-        {
-            c=den1%den2;
-            den1=den2;
-            den2=c;
-        }
+        max=den1;
     }
-    else if(den2>den1)
+    else
     {
-        while(den1!=0)
-        {
-            c=den2%den2;
-            den2=den1;
-            den1=c;
-        }
+        max=den2;
     }
-    if (den2==0)
+    while(1)
     {
-        gcd=den1;
-    }
-    else if (den1==0)
+    if(max%den1==0 && max%den2==0)
     {
-        gcd=den2;
+        res_den=max;
+        break;
     }
-    *res_den=(den1*den2)/gcd;
-    *res_num=num1+num2;
+    else{
+        max++;
+    }
+    }
 }
 
 void output(int num1, int den1, int num2, int den2, int res_num, int res_den)
