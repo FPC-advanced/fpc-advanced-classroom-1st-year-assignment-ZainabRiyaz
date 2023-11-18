@@ -73,3 +73,18 @@ c:\mingw\include\string.h:91:40: note: expected 'const char *' but argument is o
  _CRTIMP __cdecl __MINGW_NOTHROW  char *strtok (char *, const char *);
                                         ^~~~~~
 Compilation finished at 11/19/2023, 3:12:51 AM
+Compilation started at 11/19/2023, 3:13:32 AM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem06.c: In function 'count_words':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem06.c:29:12: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char s=" ";
+            ^~~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem06.c:31:8: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+     tok=strtok(string," ");
+        ^
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem06.c:32:14: warning: comparison between pointer and integer
+     while(tok!=NULL)
+              ^~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem06.c:34:12: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         tok=strtok(string," ");
+            ^
+Compilation finished at 11/19/2023, 3:13:35 AM

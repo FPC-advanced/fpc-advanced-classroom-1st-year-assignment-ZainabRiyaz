@@ -25,13 +25,13 @@ void input_string(char *a)
 
 int count_words(char *string)
 {
-    char *tok;
+    char tok;
     char s=" ";
     int count=1;
-    tok=strtok(string,s);
+    tok=strtok(string," ");
     while(tok!=NULL)
     {
-        tok=strtok(string,s);
+        tok=strtok(string," ");
         count+=1;
     }
     return count;
