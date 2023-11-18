@@ -42,7 +42,7 @@ void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den)
     {
     if(max%den1==0 && max%den2==0)
     {
-        res_den=max;
+        *res_den=max;
         break;
     }
     else{
