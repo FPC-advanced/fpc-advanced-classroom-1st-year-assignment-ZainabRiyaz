@@ -225,3 +225,5 @@ C:\Users\zaina\AppData\Local\Temp\ccvmRBDz.o: In function `str_reverse':
 c:/Users/zaina/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz/set02/problem06.c:28: undefined reference to `revstr'
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 11/19/2023, 12:23:14 AM
+Compilation started at 11/19/2023, 12:23:47 AM
+Compilation finished at 11/19/2023, 12:23:51 AM
