@@ -118,3 +118,9 @@ Compilation started at 11/19/2023, 3:28:08 AM
 Compilation finished at 11/19/2023, 3:28:11 AM
 Compilation started at 11/19/2023, 3:30:15 AM
 Compilation finished at 11/19/2023, 3:30:19 AM
+Compilation started at 11/19/2023, 3:31:16 AM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem06.c: In function 'count_words':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem06.c:30:14: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+     while(tok=strtok(string," ")!=NULL)
+              ^
+Compilation finished at 11/19/2023, 3:31:20 AM

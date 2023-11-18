@@ -27,9 +27,9 @@ int count_words(char *string)
 {
     char *tok;
     int count=1;
-    while(tok=strtok(string," "))
+    while(tok=strtok(string," ")!=NULL)
     {
-        tok=NULL;
+        string=NULL;
         count+=1;
     }
     return count;
