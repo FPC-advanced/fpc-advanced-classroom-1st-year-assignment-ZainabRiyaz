@@ -30,7 +30,7 @@ void str_reverse(char *a, char *rev_str)
     for(int i=0;i<lent;i++)
     {
         change=a[i];
-        rev_str[lent=i=1]=change;
+        rev_str[lent-i-1]=change;
     }
 }
 
