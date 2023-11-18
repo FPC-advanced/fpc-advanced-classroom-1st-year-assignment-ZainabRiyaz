@@ -58,9 +58,9 @@ void find_small(Fraction a, Fraction b, Fraction c,Fraction *small)
             max++;
         }
     }
-    m1=max/a.num;
-    m2=max/b.num;
-    m3=max/c.num;
+    m1=max/a.den;
+    m2=max/b.den;
+    m3=max/c.den;
     a.num=a.num*m1;
     b.num=b.num*m2;
     c.num=c.num*m3;
