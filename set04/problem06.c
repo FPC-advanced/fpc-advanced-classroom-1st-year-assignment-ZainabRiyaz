@@ -33,6 +33,7 @@ int count_words(char *string)
         tok=strtok(NULL," ");
         count+=1;
     }
+    return count;
 }
 
 void output(char *string, int no_words)
