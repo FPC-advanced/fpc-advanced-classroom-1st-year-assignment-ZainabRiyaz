@@ -6,33 +6,29 @@ typedef struct {
     int num, den;
 } Fraction;
 
-void input(Fraction *a, Fraction *b, Fraction *c);
+Fraction input();
 void find_small(Fraction a, Fraction b, Fraction c,Fraction *small);
 void output(Fraction a, Fraction b, Fraction c,Fraction small);
 
 int main()
 {
     Fraction a,b,c,small;
-    input(&a,&b,&c);
+    a=input();
+    b=input();
+    c=input();
     find_small(a,b,c,&small);
     output(a,b,c,small);
     return 0;
 }
 
-void input(Fraction *a, Fraction *b, Fraction *c)
+Fraction input()
 {
-    printf("Please input the numerator: ");
-    scanf("%d",a->num);
-    printf("Please input the denominator: ");
-    scanf("%d",a->den);
-    printf("Please input the numerator: ");
-    scanf("%d",b->num);
-    printf("Please input the denominator: ");
-    scanf("%d",b->den);
-    printf("Please input the numerator: ");
-    scanf("%d",c->num);
-    printf("Please input the denominator: ");
-    scanf("%d",c->den);
+    Fraction x;
+    printf("Please enter numerator: ");
+    scanf("%d",&x.num);
+    printf("Please enter denominator: ");
+    scanf("%d",&x.den);
+    return x;
 }
 
 void find_small(Fraction a, Fraction b, Fraction c,Fraction *small)

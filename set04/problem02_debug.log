@@ -25,3 +25,6 @@ Breakpoint 1, input (a=0x61ff18, b=0x61ff10, c=0x61ff08)
 
 Program received signal SIGSEGV, Segmentation fault.
 0x76124937 in ungetwc () from C:\WINDOWS\SysWOW64\msvcrt.dll
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
