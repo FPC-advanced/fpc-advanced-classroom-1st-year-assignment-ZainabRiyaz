@@ -26,25 +26,26 @@ void input_n_and_r(int *n, int *r)
 int nCr(int n, int r)
 {
     int factn=1,factr=1,factrn=1,nCr;
+    int l=n-r;
     while(n!=0)
     {
     for(int i=1;i<=n;i++)
     {
         factn=factn*i;
     }
-    for(int i=1;i<=r;i++)
+    for(int j=1;j<=r;j++)
     {
-        factr=factr*i;
+        factr=factr*j;
     }
-    for(int i=1;i<=n-r;i++)
+    for(int k=1;k<=l;k++)
     {
-        factrn=factrn*i;
+        factrn=factrn*k;
     }
     if(r>n)
     {
         nCr=0;
     }
-    else if (n>r)
+    else if(n>r)
     {
         nCr=factn/factr*factrn;
     }
