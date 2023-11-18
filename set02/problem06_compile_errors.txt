@@ -213,3 +213,15 @@ c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
 Compilation finished at 11/19/2023, 12:13:17 AM
 Compilation started at 11/19/2023, 12:19:21 AM
 Compilation finished at 11/19/2023, 12:19:26 AM
+Compilation started at 11/19/2023, 12:23:10 AM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c: In function 'str_reverse':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:28:13: warning: implicit declaration of function 'revstr' [-Wimplicit-function-declaration]
+     rev_str=revstr(a);
+             ^~~~~~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:28:12: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+     rev_str=revstr(a);
+            ^
+C:\Users\zaina\AppData\Local\Temp\ccvmRBDz.o: In function `str_reverse':
+c:/Users/zaina/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz/set02/problem06.c:28: undefined reference to `revstr'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/19/2023, 12:23:14 AM
