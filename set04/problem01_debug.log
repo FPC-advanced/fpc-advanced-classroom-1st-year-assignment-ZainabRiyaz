@@ -1,0 +1,50 @@
++b main
+Breakpoint 1 at 0x401471: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem01.c, line 12.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04/./problem01.exe 
+[New Thread 20672.0x5044]
+[New Thread 20672.0x3f44]
+
+Breakpoint 1, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem01.c:12
+12	    input(&n1,&d1,&n2,&d2);
++step
+input (num1=0x61ff0c, den1=0x61ff08, num2=0x61ff04, den2=0x61ff00)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem01.c:20
+20	    printf("Enter the first numerator: ");
++n
+21	    scanf("%d",num1);
++n
+22	    printf("Enter the first denominator: ");
++n
+23	    scanf("%d",den1);
++2
+Undefined command: "2".  Try "help".
++n
+24	    printf("Enter the second numerator: ");
++n
+25	    scanf("%d",num2);
++n
+26	    printf("Enter the second denominator: ");
++n
+27	    scanf("%d",den2);
++n
+28	}
++n
+main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem01.c:13
+13	    add(n1,d1,n2,d2,&nr,&dr);
++p n1
+$1 = 1
++p d1
+$2 = 2
++p n2
+$3 = 1
++p d2
+$4 = 4
++n
+
+Program received signal SIGFPE, Arithmetic exception.
+0x004015f7 in add (num1=1, den1=0, num2=1, den2=2, res_num=0x61fefc, res_den=0x61fef8)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem01.c:54
+54	    res_den=(den1*den2)/gcd;
