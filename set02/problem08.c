@@ -25,7 +25,7 @@ int main()
     return 0;
 }
 
-int input_n();
+int input_n()
 {
     int n;
     prinf("Please enter the total size of the array: ");

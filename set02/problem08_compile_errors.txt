@@ -80,3 +80,17 @@ c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
 Compilation finished at 11/25/2023, 3:54:54 PM
 Compilation started at 11/25/2023, 3:55:16 PM
 Compilation finished at 11/25/2023, 3:55:20 PM
+Compilation started at 11/25/2023, 3:57:09 PM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem08.c:29:1: error: expected identifier or '(' before '{' token
+ {
+ ^
+Compilation finished at 11/25/2023, 3:57:12 PM
+Compilation started at 11/25/2023, 3:57:34 PM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem08.c: In function 'input_n':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem08.c:31:5: warning: implicit declaration of function 'prinf' [-Wimplicit-function-declaration]
+     prinf("Please enter the total size of the array: ");
+     ^~~~~
+C:\Users\zaina\AppData\Local\Temp\ccx0G4ui.o: In function `input_n':
+c:/Users/zaina/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz/set02/problem08.c:31: undefined reference to `prinf'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/25/2023, 3:57:38 PM
