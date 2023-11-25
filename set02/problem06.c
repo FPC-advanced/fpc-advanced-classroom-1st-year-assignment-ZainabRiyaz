@@ -9,7 +9,7 @@ void output(char *a, char *reverse_a);
 
 int main()
 {
-    char str,rev_str;
+    char str[100],rev_str[100];
     input_string(&str);
     str_reverse(&str,&rev_str);
     output(&str,&rev_str);
