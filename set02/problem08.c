@@ -1,13 +1,13 @@
-/*Write a program to find the triangle with smallest area in n given triangles.*/
-
-#include <stdio.h>
+/*08. Write a program to find the triangle with smallest area in n given triangles.*/
 
 typedef struct _triangle {
 	float base, altitude, area;
 } Triangle;
-
 int input_n();
+
+Triangle input_triangle();
 void input_n_triangles(int n, Triangle t[n]);
+float find_area(Triangle t);
 void find_n_areas(int n, Triangle t[n]);
 Triangle find_smallest_triangle(int n, Triangle t[n]);
 void output(int n, Triangle t[n], Triangle smallest);
@@ -15,7 +15,6 @@ void output(int n, Triangle t[n], Triangle smallest);
 int main()
 {
     int n;
-    n=input_n();
     Triangle t[n],small;
     input_n_triangles(n,t);
     find_n_areas(n,t);
@@ -24,64 +23,61 @@ int main()
     return 0;
 }
 
-int input_n()
+Triangle input_triangle()
 {
-    int n;
-    printf("Enter the size of the array: ");
-    scanf("%d",&n);
-    return n;
+    Triangle tri;
+    printf("Enter the base of the triangle: ");
+    scanf("%f",&tri.base);
+    printf("Enter the altitude of the triangle: ");
+    scanf("%f",&tri.altitude);
+    return tri;
 }
 
 void input_n_triangles(int n, Triangle t[n])
 {
+    printf("Please enter the total number of triangles: ");
+    scanf("%d",&n);
     for(int i=0;i<n;i++)
     {
-        printf("Enter the base: ");
-        scanf("%d",&t[i].base);
-        printf("Enter the altitude: ");
-        scanf("%d",&t[i].altitude);
+        t[i]=input_triangle();
     }
+}
+
+float find_area(Triangle t)
+{
+    t.area=0.5*t.altitude*t.base;
+    return t.area;
 }
 
 void find_n_areas(int n, Triangle t[n])
 {
-    for(int i=0; i<n;i++)
+    for(int i=0;i<n;i++)
     {
-        t[i].area=0.5*t[i].altitude*t[i].base;
+        t[i].area=find_area(t[i]);
     }
 }
 
 Triangle find_smallest_triangle(int n, Triangle t[n])
 {
-    Triangle small;
+    float large;
+    int count=0;
     for(int i=0;i<n;i++)
     {
-        if(t[i].area>t[i+1].area)
+        if (t[i].area>large)
         {
-            small.base=t[i+1].base;
-            small.area=t[i+1].area;
-            small.altitude=t[i+1].altitude;
+            large=t[i].area;
+            count=i;
+        }
+        else
+        {
+            continue;
         }
     }
-    return small;
+    return t[count];
 }
 
 void output(int n, Triangle t[n], Triangle smallest)
 {
-    printf("The smallest area is %f",smallest.area);
+    printf("The smallest area is (%f,%f) having area %f",smallest.base,smallest.altitude,smallest.area);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
