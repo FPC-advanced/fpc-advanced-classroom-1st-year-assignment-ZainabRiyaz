@@ -28,7 +28,7 @@ int main()
 int input_n()
 {
     int n;
-    prinf("Please enter the total size of the array: ");
+    printf("Please enter the total size of the array: ");
     scanf("%d",&n);
     return n;
 }
