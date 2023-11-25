@@ -247,3 +247,9 @@ c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
      char s=a;
             ^
 Compilation finished at 11/19/2023, 12:53:10 AM
+Compilation started at 11/25/2023, 6:52:20 AM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c: In function 'str_reverse':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:31:12: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char s=a;
+            ^
+Compilation finished at 11/25/2023, 6:52:24 AM

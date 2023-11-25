@@ -9,7 +9,7 @@ void output(int sum);
 
 int main()
 {
-    int n,sum=0;
+    int n,sum;
     n=input_array_size();
     int a[n];
     input_array(n,a);
@@ -37,18 +37,17 @@ void input_array(int n, int a[n])
 
 int sum_composite_numbers(int n, int a[n])
 {
-    int sum=0;
+    int sum=0,count=0;
     for(int i=0;i<n;i++)
     {
-        int count=0;
-        for(int j=1;j<=a[i];i++)
+        for(int j=0;j<a[i];i++)
         {
-            if(a[i]%j==0)
+            if (a[i]%j==0)
             {
                 count+=1;
             }
         }
-        if(count>2)
+        if  (count>2)
         {
             sum+=a[i];
         }
