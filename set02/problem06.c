@@ -30,8 +30,11 @@ void str_reverse(char *a, char *rev_str)
     j=len-1;
     for(int i=0;i<len;i++)
     {
+        while(a[i]!='\0')
+        {
         rev_str[j]=a[i];
         j--;
+        }
     }
 }
 

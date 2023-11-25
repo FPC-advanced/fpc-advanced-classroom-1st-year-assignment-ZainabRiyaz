@@ -302,3 +302,36 @@ c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
  void output(char *a, char *reverse_a);
       ^~~~~~
 Compilation finished at 11/25/2023, 2:54:31 PM
+Compilation started at 11/25/2023, 2:56:07 PM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c: In function 'main':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:13:18: warning: passing argument 1 of 'input_string' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_string(&str);
+                  ^
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:6:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void input_string(char *a);
+      ^~~~~~~~~~~~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:14:17: warning: passing argument 1 of 'str_reverse' from incompatible pointer type [-Wincompatible-pointer-types]
+     str_reverse(&str,&rev_str);
+                 ^
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:7:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void str_reverse(char *a, char *rev_str);
+      ^~~~~~~~~~~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:14:22: warning: passing argument 2 of 'str_reverse' from incompatible pointer type [-Wincompatible-pointer-types]
+     str_reverse(&str,&rev_str);
+                      ^
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:7:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void str_reverse(char *a, char *rev_str);
+      ^~~~~~~~~~~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:15:12: warning: passing argument 1 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+     output(&str,&rev_str);
+            ^
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:8:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void output(char *a, char *reverse_a);
+      ^~~~~~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:15:17: warning: passing argument 2 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+     output(&str,&rev_str);
+                 ^
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set02\problem06.c:8:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void output(char *a, char *reverse_a);
+      ^~~~~~
+Compilation finished at 11/25/2023, 2:56:11 PM
