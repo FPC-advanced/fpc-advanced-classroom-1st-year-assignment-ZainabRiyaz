@@ -37,10 +37,10 @@ void input_array(int n, int a[n])
 
 int sum_composite_numbers(int n, int a[n])
 {
-    int sum=0,count=0;
+    int sum=0,count=0;;
     for(int i=0;i<n;i++)
     {
-        for(int j=0;j<a[i];i++)
+        for(int j=1;j<=a[i];j++)
         {
             if (a[i]%j==0)
             {
@@ -50,6 +50,10 @@ int sum_composite_numbers(int n, int a[n])
         if  (count>2)
         {
             sum+=a[i];
+            count=0;
+        }
+        else{
+            count=0;
         }
     }
     return sum;

@@ -25,15 +25,10 @@ void input_string(char *a)
 //strrev(str)- reverses string using library function.
 void str_reverse(char *a, char *rev_str)
 {
-    int lent = strlen(a);
-    int len=lent;
-    char change;
-    char s=a;
-    for(int i=0;i<lent;i++)
+    int len=strlen(a);
+    for(int i=-1;i<len;i--)
     {
-        change=a[i];
-        rev_str[len-1]=change;
-        len--;
+        rev_str+=a[i];
     }
 }
 
