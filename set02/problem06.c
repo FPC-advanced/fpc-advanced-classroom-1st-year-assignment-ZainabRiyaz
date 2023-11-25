@@ -26,10 +26,7 @@ void input_string(char *a)
 void str_reverse(char *a, char *rev_str)
 {
     int len=strlen(a);
-    for(int i=-1;i<len;i--)
-    {
-        rev_str+=a[i];
-    }
+    rev_str=strrev(a);
 }
 
 void output(char *a, char *reverse_a)
