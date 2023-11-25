@@ -5,8 +5,8 @@
 typedef struct _triangle {
 	float base, altitude, area;
 } Triangle;
-int input_n();
 
+int input_n();
 Triangle input_triangle();
 void input_n_triangles(int n, Triangle t[n]);
 float find_area(Triangle t);
@@ -25,6 +25,13 @@ int main()
     return 0;
 }
 
+int input_n();
+{
+    int n;
+    prinf("Please enter the total size of the array: ");
+    scanf("%d",&n);
+    return n;
+}
 Triangle input_triangle()
 {
     Triangle tri;
@@ -37,8 +44,6 @@ Triangle input_triangle()
 
 void input_n_triangles(int n, Triangle t[n])
 {
-    printf("Please enter the total number of triangles: ");
-    scanf("%d",&n);
     for(int i=0;i<n;i++)
     {
         t[i]=input_triangle();
