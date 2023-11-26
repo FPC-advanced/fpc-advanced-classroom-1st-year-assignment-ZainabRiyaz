@@ -322,3 +322,52 @@ Breakpoint 2, init_array (n=35, a=0x61fe68)
 33	        a[i]=i;
 +n
 31	    for(int i=2;i<n;i++)
++p n
+$6 = 35
++n
+
+Breakpoint 2, init_array (n=35, a=0x61fe68)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:33
+33	        a[i]=i;
++n
+31	    for(int i=2;i<n;i++)
++p n
+$7 = 35
++p i
+$8 = 33
++n
+
+Breakpoint 2, init_array (n=35, a=0x61fe68)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:33
+33	        a[i]=i;
++n
+31	    for(int i=2;i<n;i++)
++n
+35	}
++p i
+No symbol "i" in current context.
++n
+main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:16
+16	    erotosthenes_sieve(n,a);
++p n
+$9 = 35
++n
+17	    output(n,a[n]);
++n
+
+Program received signal SIGSEGV, Segmentation fault.
+0x004015ef in output (n=35, a=0x50d2a038)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:59
+59	        if(a[i]!=0)
++n
+
+Program received signal SIGSEGV, Segmentation fault.
+0x004015ef in output (n=35, a=0x50d2a038)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:59
+59	        if(a[i]!=0)
++p i
+$10 = 2
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
