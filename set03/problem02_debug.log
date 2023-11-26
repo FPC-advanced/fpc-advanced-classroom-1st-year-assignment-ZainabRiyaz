@@ -30,3 +30,53 @@ Breakpoint 3, main ()
 Breakpoint 2, main ()
     at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem02.c:14
 14	    result=is_triangle(x1,y1,x2,y2,x3,y3);
++p x1
+$1 = 1
++p x2
+$2 = 0
++p y1
+$3 = 1
++p y2
+$4 = 0
++p z1
+No symbol "z1" in current context.
++p x3
+$5 = 1
++p y3
+$6 = 1
++n
+
+Breakpoint 1, is_triangle (x1=1, y1=1, x2=0, y2=0, x3=1, y3=1)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem02.c:39
+39	    area=0.5*(x1*(y2-y3)+x2*(y3-y1)+x3*(y1-y2));
++p area
+$7 = -1.99339491e-028
++n
+40	    if (area==0)
++p area
+$8 = 0
++n
+42	        result=0;
++n
+48	    return result;
++n
+49	}
++n
+main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem02.c:15
+15	    output(x1,y1,x2,y2,x3,y3,result);
++p result
+$9 = 0
++n
+16	    return 0;
++n
+17	}
++n
+0x00401288 in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
