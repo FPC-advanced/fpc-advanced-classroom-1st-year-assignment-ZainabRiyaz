@@ -13,3 +13,31 @@ Breakpoint 3, main ()
     at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem03.c:12
 12	    num=input_number();
 +n
+13	    result=is_prime(num);
++p num
+$1 = 23
++n
+
+Breakpoint 1, is_prime (n=23)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem03.c:44
+44	    return result;
++p result
+$2 = 0
++n
+45	}
++n
+
+Breakpoint 2, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem03.c:14
+14	    output(num,result);
++p result
+$3 = 0
++n
+15	    return 0;
++n
+16	}
++n
+0x00401288 in __register_frame_info ()
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
