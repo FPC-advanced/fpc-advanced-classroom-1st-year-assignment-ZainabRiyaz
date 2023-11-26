@@ -162,3 +162,163 @@ Breakpoint 2, init_array (n=35, a=0x61fe68)
 Breakpoint 2, init_array (n=35, a=0x61fe68)
     at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:33
 33	        a[i]=i;
++nn
+Undefined command: "nn".  Try "help".
++n
+31	    for(int i=2;i<n;i++)
++n
+
+Breakpoint 2, init_array (n=35, a=0x61fe68)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:33
+33	        a[i]=i;
++n
+31	    for(int i=2;i<n;i++)
++n
+
+Breakpoint 2, init_array (n=35, a=0x61fe68)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:33
+33	        a[i]=i;
++n
+31	    for(int i=2;i<n;i++)
++n
+
+Breakpoint 2, init_array (n=35, a=0x61fe68)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:33
+33	        a[i]=i;
++n
+31	    for(int i=2;i<n;i++)
++n
+
+Breakpoint 2, init_array (n=35, a=0x61fe68)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:33
+33	        a[i]=i;
++n
+31	    for(int i=2;i<n;i++)
++n
+
+Breakpoint 2, init_array (n=35, a=0x61fe68)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:33
+33	        a[i]=i;
++n
+31	    for(int i=2;i<n;i++)
++n
+
+Breakpoint 2, init_array (n=35, a=0x61fe68)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:33
+33	        a[i]=i;
++n
+31	    for(int i=2;i<n;i++)
++n
+
+Breakpoint 2, init_array (n=35, a=0x61fe68)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:33
+33	        a[i]=i;
++n
+31	    for(int i=2;i<n;i++)
++n
+
+Breakpoint 2, init_array (n=35, a=0x61fe68)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:33
+33	        a[i]=i;
++p i
+$5 = 18
++n
+31	    for(int i=2;i<n;i++)
++n
+
+Breakpoint 2, init_array (n=35, a=0x61fe68)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:33
+33	        a[i]=i;
++n
+31	    for(int i=2;i<n;i++)
++n
+
+Breakpoint 2, init_array (n=35, a=0x61fe68)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:33
+33	        a[i]=i;
++n
+31	    for(int i=2;i<n;i++)
++n
+
+Breakpoint 2, init_array (n=35, a=0x61fe68)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:33
+33	        a[i]=i;
++n
+31	    for(int i=2;i<n;i++)
++n
+
+Breakpoint 2, init_array (n=35, a=0x61fe68)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:33
+33	        a[i]=i;
++n
+31	    for(int i=2;i<n;i++)
++n
+
+Breakpoint 2, init_array (n=35, a=0x61fe68)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:33
+33	        a[i]=i;
++n
+31	    for(int i=2;i<n;i++)
++n
+
+Breakpoint 2, init_array (n=35, a=0x61fe68)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:33
+33	        a[i]=i;
++n
+31	    for(int i=2;i<n;i++)
++n
+
+Breakpoint 2, init_array (n=35, a=0x61fe68)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:33
+33	        a[i]=i;
++n
+31	    for(int i=2;i<n;i++)
++n
+
+Breakpoint 2, init_array (n=35, a=0x61fe68)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:33
+33	        a[i]=i;
++n
+31	    for(int i=2;i<n;i++)
++n
+
+Breakpoint 2, init_array (n=35, a=0x61fe68)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:33
+33	        a[i]=i;
++n
+31	    for(int i=2;i<n;i++)
++n
+
+Breakpoint 2, init_array (n=35, a=0x61fe68)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:33
+33	        a[i]=i;
++n
+31	    for(int i=2;i<n;i++)
++n
+
+Breakpoint 2, init_array (n=35, a=0x61fe68)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:33
+33	        a[i]=i;
++n
+31	    for(int i=2;i<n;i++)
++n
+
+Breakpoint 2, init_array (n=35, a=0x61fe68)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:33
+33	        a[i]=i;
++n
+31	    for(int i=2;i<n;i++)
++n
+
+Breakpoint 2, init_array (n=35, a=0x61fe68)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:33
+33	        a[i]=i;
++n
+31	    for(int i=2;i<n;i++)
++n
+
+Breakpoint 2, init_array (n=35, a=0x61fe68)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:33
+33	        a[i]=i;
++n
+31	    for(int i=2;i<n;i++)
