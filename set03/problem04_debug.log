@@ -1,0 +1,11 @@
++l
+3	#include <stdio.h>
+4	
+5	int input();
+6	int find_fibo(int n);
+7	void output(int n, int fibo);
+8	
+9	int main()
+10	{
+11	    int num,fibo;
+12	    num=input();
