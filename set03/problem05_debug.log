@@ -2,3 +2,22 @@
 Breakpoint 1 at 0x401534: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c, line 26.
 +b 33
 Breakpoint 2 at 0x401548: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c, line 33.
++b main
+Breakpoint 3 at 0x401477: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c, line 11.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03/./problem05.exe 
+[New Thread 3400.0x143c]
+[New Thread 3400.0x3eb8]
+
+Breakpoint 3, 0x00401477 in main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:11
+11	{
++n
+13	    n=input_array_size();
++n
+
+Breakpoint 1, input_array_size ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:26
+26	    return n;
++p n
+$1 = 35
