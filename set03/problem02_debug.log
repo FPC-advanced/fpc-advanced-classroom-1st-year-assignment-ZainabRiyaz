@@ -13,3 +13,20 @@
 Breakpoint 1 at 0x4015f9: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem02.c, line 39.
 +b
 No default breakpoint address now.
++b 14
+Breakpoint 2 at 0x4014a2: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem02.c, line 14.
++b main
+Breakpoint 3 at 0x40146e: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem02.c, line 13.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03/./problem02.exe 
+[New Thread 22228.0x4d4c]
+[New Thread 22228.0x5644]
+
+Breakpoint 3, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem02.c:13
+13	    input_triangle(&x1,&y1,&x2,&y2,&x3,&y3);
++n
+
+Breakpoint 2, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem02.c:14
+14	    result=is_triangle(x1,y1,x2,y2,x3,y3);
