@@ -50,12 +50,6 @@ void erotosthenes_sieve(int n, int a[n])
             }
         }
     }
-    for(int i=2;i<n;i++)
-    {
-        {
-            printf("%d",a[i]);
-        }
-    }
 }
 
 void output(int n, int a[n])
