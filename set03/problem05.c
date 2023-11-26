@@ -1,6 +1,7 @@
 /*5. Write a program to find all the prime numbers between 2 to n Eratosthenes Sieve method.*/
 
 #include <stdio.h>
+#include <math.h>
 
 int input_array_size();
 void init_array(int n, int a[n]);
@@ -36,19 +37,18 @@ void init_array(int n, int a[n])
 
 void erotosthenes_sieve(int n, int a[n])
 {
-    for(int i=2;i<n;i++)
-    {
-        while(a[i]!=0)
-        {
-        for(int j=2;j<n;j++)
-        {
-            if (a[i]%j==0)
-            {
-                a[i]=0;
-            }
-        }
-        }
-    }
+    int limit = sqrt(n);  
+  
+    for(int i = 1; i <= limit; i++)  
+    {  
+    if(a[i] != 0)  
+    {  
+        for(int j = pow(a[i], 2); j <= n; j = j + a[i])  
+        {  
+            a[j - 1] = 0;  
+        }  
+    }  
+    }  
 }
 
 void output(int n, int a[n])
