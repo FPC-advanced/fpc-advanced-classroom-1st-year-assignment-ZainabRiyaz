@@ -38,7 +38,16 @@ void erotosthenes_sieve(int n, int a[n])
 {
     for(int i=2;i<n;i++)
     {
-        printf("%d",a[i]);
+        while(a!=0)
+        {
+        for(int j=2;j<n;j++)
+        {
+            if (a[i]%j==0)
+            {
+                a[i]=0;
+            }
+        }
+        }
     }
 }
 
