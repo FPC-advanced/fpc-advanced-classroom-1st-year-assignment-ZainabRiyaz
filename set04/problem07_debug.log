@@ -1,0 +1,17 @@
++l
+9	Fraction input_fraction();
+10	int find_lcm(int a, int b);
+11	Fraction add_fractions(Fraction f1, Fraction f2,int lcm);
+12	void output(Fraction f1, Fraction f2,Fraction sum);
+13	
+14	int main()
+15	{
+16	    Fraction a,b,sum;
+17	    int lcm;
+18	    a=input_fraction();
++b 20
+Breakpoint 1 at 0x401488: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem07.c, line 20.
++b 65
+Breakpoint 2 at 0x4015e1: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem07.c, line 65.
++b 76
+Breakpoint 3 at 0x401618: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem07.c, line 76.
