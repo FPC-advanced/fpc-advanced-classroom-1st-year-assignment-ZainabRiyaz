@@ -1,0 +1,26 @@
++l
+15	Point input_point();
+16	Line input_line();
+17	void find_length(Line *l);
+18	void output(Line l);
+19	
+20	
+21	int main()
+22	{
+23	    Line l;
+24	    l=input_line();
++b 26
+Breakpoint 1 at 0x4014ae: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem07.c, line 26.
++b 51
+Breakpoint 2 at 0x401577: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem07.c, line 51.
++b main
+Breakpoint 3 at 0x40146e: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem07.c, line 24.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03/./problem07.exe 
+[New Thread 2596.0x4dac]
+[New Thread 2596.0x6a4]
+
+Breakpoint 3, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem07.c:24
+24	    l=input_line();
++n
