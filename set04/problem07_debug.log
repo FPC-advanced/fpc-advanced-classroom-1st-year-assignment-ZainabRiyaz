@@ -15,3 +15,16 @@ Breakpoint 1 at 0x401488: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-
 Breakpoint 2 at 0x4015e1: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem07.c, line 65.
 +b 76
 Breakpoint 3 at 0x401618: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem07.c, line 76.
++b 77
+Breakpoint 4 at 0x401623: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem07.c, line 77.
++b main
+Breakpoint 5 at 0x40146e: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem07.c, line 18.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04/./problem07.exe 
+[New Thread 8536.0x23f0]
+[New Thread 8536.0x3fcc]
+
+Breakpoint 5, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem07.c:18
+18	    a=input_fraction();
++n
