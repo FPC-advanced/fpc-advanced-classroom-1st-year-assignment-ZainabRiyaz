@@ -1,0 +1,3 @@
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
