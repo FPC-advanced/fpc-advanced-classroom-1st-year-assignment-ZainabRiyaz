@@ -34,3 +34,27 @@ $1 = 5
 +n
 15	    input_array(n,a);
 +n
+16	    ilarge=find_largest_index(n,a);
++n
+
+Breakpoint 2, find_largest_index (n=5, a=0x61fed8)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem05.c:49
+49	    return ilarge;
++p ilarge
+$2 = 2
++n
+50	}
++n
+
+Breakpoint 1, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem05.c:17
+17	    output(ilarge);
++n
+18	    return 0;
++n
+19	}
++n
+0x00401288 in __register_frame_info ()
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
