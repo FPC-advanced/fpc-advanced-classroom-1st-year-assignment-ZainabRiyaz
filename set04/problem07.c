@@ -13,11 +13,12 @@ void output(Fraction f1, Fraction f2,Fraction sum);
 
 int main()
 {
-    Fraction a,b;
+    Fraction a,b,sum;
     int lcm;
     a=input_fraction();
     b=input_fraction();
     lcm=find_lcm(a.den,b.den);
+    sum=add_fractions(a,b,lcm);
     return 0;
 }
 
