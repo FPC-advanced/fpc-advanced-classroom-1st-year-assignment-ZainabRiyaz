@@ -18,7 +18,6 @@ int main()
     a=input_fraction();
     b=input_fraction();
     lcm=find_lcm(a.den,b.den);
-
     return 0;
 }
 
@@ -56,6 +55,10 @@ int find_lcm(int a, int b)
         a=c;
         }
         lcm=(n1*n2)/b;
+    }
+    else 
+    {
+        return lcm;
     }
     return lcm;
 }
