@@ -1,0 +1,36 @@
++l
+2	
+3	#include <stdio.h>
+4	
+5	int input_size();
+6	void input_array(int n, int a[n]);
+7	int find_largest_index(int n, int a[n]);
+8	void output(int index);
+9	
+10	int main()
+11	{
++b 17
+Breakpoint 1 at 0x4014e9: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem05.c, line 17.
++b 48
+Breakpoint 2 at 0x4015ca: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem05.c, line 48.
++b main
+Breakpoint 3 at 0x401477: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem05.c, line 11.
++n
+The program is not being run.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04/./problem05.exe 
+[New Thread 19892.0x4cd4]
+[New Thread 19892.0x30bc]
+
+Breakpoint 3, 0x00401477 in main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem05.c:11
+11	{
++n
+13	    n=input_size();
++n
+14	    int a[n];
++p n
+$1 = 5
++n
+15	    input_array(n,a);
++n
