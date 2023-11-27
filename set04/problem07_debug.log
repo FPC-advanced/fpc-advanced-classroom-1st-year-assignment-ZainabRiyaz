@@ -40,3 +40,9 @@ Breakpoint 1, main ()
 21	    sum=add_fractions(a,b,lcm);
 +p lcm
 $1 = 4199136
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 11/27/2023, 2:55:48 PM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
