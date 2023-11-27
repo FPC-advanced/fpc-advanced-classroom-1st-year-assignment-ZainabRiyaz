@@ -19,6 +19,7 @@ int main()
     b=input_fraction();
     lcm=find_lcm(a.den,b.den);
     sum=add_fractions(a,b,lcm);
+    output(a,b,sum);
     return 0;
 }
 
