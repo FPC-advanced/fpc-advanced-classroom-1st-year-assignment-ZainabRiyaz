@@ -73,3 +73,7 @@ Fraction add_fractions(Fraction f1, Fraction f2,int lcm)
     return sum;
 }
 
+void output(Fraction f1, Fraction f2,Fraction sum)
+{
+    printf("The lcm of %d and %d is %d",f1,f2,sum);
+}
