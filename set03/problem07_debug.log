@@ -24,3 +24,9 @@ Breakpoint 3, main ()
     at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem07.c:24
 24	    l=input_line();
 +n
+25	    find_length(&l);
++n
+
+Breakpoint 2, find_length (l=0x61ff0c)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem07.c:51
+51	    l->distance=sqrt((l->p2.x-l->p1.x)*(l->p2.x-l->p1.x)+(l->p2.y-l->p1.y)*(l->p2.y-l->p1.y));
