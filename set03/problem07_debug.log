@@ -30,3 +30,23 @@ Breakpoint 3, main ()
 Breakpoint 2, find_length (l=0x61ff0c)
     at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem07.c:51
 51	    l->distance=sqrt((l->p2.x-l->p1.x)*(l->p2.x-l->p1.x)+(l->p2.y-l->p1.y)*(l->p2.y-l->p1.y));
++p l.distance
+$1 = 2.75958828e-039
++n
+52	}
++p l. distance
+$2 = 1.41421354
++n
+
+Breakpoint 1, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem07.c:26
+26	    output(l);
++n
+27	    return 0;
++n
+28	}
++n
+0x00401288 in __register_frame_info ()
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
