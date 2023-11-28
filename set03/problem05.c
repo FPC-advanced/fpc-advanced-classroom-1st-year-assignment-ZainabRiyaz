@@ -3,18 +3,18 @@
 #include <stdio.h>
 
 int input_array_size();
-void init_array(int n, int a[n+1]);
-void erotosthenes_sieve(int n, int a[n+1]);
-void output(int n, int a[n+1]);
+void init_array(int n, int a[n]);
+void erotosthenes_sieve(int n, int a[n]);
+void output(int n, int a[n]);
 
 int main()
 {
     int n;
     n=input_array_size();
-    int a[n+1];
-    init_array(n,a[n+1]);
-    erotosthenes_sieve(n,a[n+1]);
-    output(n,a[n+1]);
+    int a[n];
+    init_array(n,a[n]);
+    erotosthenes_sieve(n,a[n]);
+    output(n,a[n]);
     return 0;
 }
 
@@ -26,36 +26,30 @@ int input_array_size()
     return n;
 }
 
-void init_array(int n, int a[n+1])
-{
-    for(int i=2;i<n+1;i++)
-    {
-        a[i]=1;
-    }
-    for(int i=2;i<n+1;i++)
-    {
-        if(a[i]!=0)
-        {
-            printf("%d",i);
-        }
-    }
-}
-
-void erotosthenes_sieve(int n, int a[n+1])
+void init_array(int n, int a[n])
 {
     for(int i=2;i<n;i++)
     {
-        if(a[i]==1)
-        {
-            for(int j=2;i*j<n;j++)
-            {
-                a[i*j]=0;
-            }
-        }
+        a[i]=i;
     }
 }
 
-void output(int n, int a[n+1])
+void erotosthenes_sieve(int n, int a[n])
+{  
+    int limit=sqrt(n);
+    for(int i = 2; i <= limit; i++)  
+    {  
+        if(a[i]!= 0)  
+        {  
+            for(int j = pow(a[i], 2); j <= n; j = j + a[i])  
+            {  
+                a[j - 1] = 0;  
+            }  
+        } 
+    }
+}  
+
+void output(int n, int a[n])
 {
     for(int i=2;i<n+1;i++)
     {

@@ -358,3 +358,38 @@ c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
  void output(int n, int a[n+1]);
       ^~~~~~
 Compilation finished at 11/28/2023, 9:47:24 AM
+Compilation started at 11/28/2023, 10:23:43 AM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c: In function 'main':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:15:18: warning: passing argument 2 of 'init_array' makes pointer from integer without a cast [-Wint-conversion]
+     init_array(n,a[n]);
+                  ^
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:6:6: note: expected 'int *' but argument is of type 'int'
+ void init_array(int n, int a[n]);
+      ^~~~~~~~~~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:16:26: warning: passing argument 2 of 'erotosthenes_sieve' makes pointer from integer without a cast [-Wint-conversion]
+     erotosthenes_sieve(n,a[n]);
+                          ^
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:7:6: note: expected 'int *' but argument is of type 'int'
+ void erotosthenes_sieve(int n, int a[n]);
+      ^~~~~~~~~~~~~~~~~~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:17:14: warning: passing argument 2 of 'output' makes pointer from integer without a cast [-Wint-conversion]
+     output(n,a[n]);
+              ^
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:8:6: note: expected 'int *' but argument is of type 'int'
+ void output(int n, int a[n]);
+      ^~~~~~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c: In function 'erotosthenes_sieve':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:39:15: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+     int limit=sqrt(n);
+               ^~~~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:39:15: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:39:15: note: include '<math.h>' or provide a declaration of 'sqrt'
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:44:25: warning: implicit declaration of function 'pow' [-Wimplicit-function-declaration]
+             for(int j = pow(a[i], 2); j <= n; j = j + a[i])
+                         ^~~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:44:25: warning: incompatible implicit declaration of built-in function 'pow'
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:44:25: note: include '<math.h>' or provide a declaration of 'pow'
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:44:13: error: declaration of non-variable 'pow' in 'for' loop initial declaration
+             for(int j = pow(a[i], 2); j <= n; j = j + a[i])
+             ^~~
+Compilation finished at 11/28/2023, 10:23:46 AM
