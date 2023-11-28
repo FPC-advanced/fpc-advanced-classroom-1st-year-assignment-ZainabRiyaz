@@ -162,3 +162,15 @@ c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
          tok=strtok(NULL," ");
             ^
 Compilation finished at 11/28/2023, 10:28:45 PM
+Compilation started at 11/28/2023, 10:29:22 PM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem06.c: In function 'count_words':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem06.c:25:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char tok=strtok(string," ");
+              ^~~~~~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem06.c:26:14: warning: comparison between pointer and integer
+     while(tok!=NULL)
+              ^~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem06.c:29:12: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         tok=strtok(NULL," ");
+            ^
+Compilation finished at 11/28/2023, 10:29:26 PM
