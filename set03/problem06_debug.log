@@ -1,0 +1,11 @@
++l
+3	#include <stdio.h>
+4	
+5	void input_string(char *a, char *b);
+6	int sub_str_index(char *string, char *substring);
+7	void output(char *string, char *substring, int index);
+8	
+9	int main()
+10	{
+11	    char str[100],substr[100];
+12	    int i=0;
