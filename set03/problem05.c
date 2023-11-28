@@ -58,7 +58,7 @@ void output(int n,int a[n])
     {
         if(a[i]!=0)
         {
-            printf("%d",i);
+            printf("%d ,",i);
         }
     }
 }
