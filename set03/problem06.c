@@ -1,7 +1,6 @@
 /*6. Write a program to find the index of a substring of a string*/
 
 #include <stdio.h>
-#include <string.h>
 
 void input_string(char *a, char *b);
 int sub_str_index(char *string, char *substring);
@@ -9,63 +8,47 @@ void output(char *string, char *substring, int index);
 
 int main()
 {
-    char string,substring;
-    input_string(&string,&substring);
-    int index;
-    index=sub_str_index(&string,&substring);
-    output(&string,&substring,index);
+    char str[100],substr[100];
+    int i=0;
+    input_string(str,substr);
+    i=sub_str_index(str,substr);
+    output(str,substr,i);
     return 0;
 }
 
-void input_string(char *a, char *b)
+void input_string(char *a,char *b)
 {
-    printf("Input the string: ");
+    printf("Enter string: ");
     scanf("%s",a);
-    printf("Input the substring: ");
+    printf("Enter substring: ");
     scanf("%s",b);
 }
 
 int sub_str_index(char *string, char *substring)
 {
-    int check=0,index=0,i=0;
-    for(i=0;i<strlen(string);i++)
+    int lenstr=0,lensub=0;
+    for(lenstr=0;string[lenstr]!='\0';lenstr++);
+    for(lensub=0;substring[lensub]!='\0';lensub++);
+    for(int i=0;i<lenstr;i++)
     {
-        if (string[i]==substring[0])
+        if(string[i]==substring[0])
         {
-            check=1;
-            for(int j=1;j<strlen(substring);j++)
+            for(int j=0;j<lensub;j++)
+        {
+            if(substring[j]!=string[i])
             {
-                if (string[i+j]!=substring[j])
-                {
-                    check=0;
-                    break;
-                }
+                break;
+            }
+            else
+            {
+                return i;
             }
         }
-        if (check==1)
-        {
-            break;
         }
     }
-    if (check==1)
-    {
-        index=i;
-    }
-    else
-    {
-        index=-1;
-    }
-    return index;
 }
 
-void output(char *string, char *substring, int index)
+void output(char *string,char *substring,int index)
 {
-    printf("%d",index);
-    if (index!=-1){
-    printf("The index of '%s' in '%s' is %d",substring,string,index);
-    }
-    else
-    {
-        printf("Strings unmatched");
-    }
+    printf("The index pf %s in %s is %d\n",substring,string,index);
 }
