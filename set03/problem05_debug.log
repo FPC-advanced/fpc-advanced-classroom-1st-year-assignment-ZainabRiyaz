@@ -371,3 +371,165 @@ $10 = 2
 +set logging enabled off
 Undefined set logging command: "enabled off".  Try "help set logging".
 +set loggin off
++l
+3	#include <stdio.h>
+4	#include <math.h>
+5	
+6	int input_array_size();
+7	void init_array(int n, int a[n]);
+8	void erotosthenes_sieve(int n, int a[n]);
+9	void output(int n, int a[n]);
+10	
+11	int main()
+12	{
++b 36
+Breakpoint 1 at 0x401574: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c, line 36.
++b 34
+Breakpoint 2 at 0x401554: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c, line 34.
++b main
+Breakpoint 3 at 0x401477: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c, line 12.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03/./problem05.exe 
+[New Thread 8804.0x596c]
+[New Thread 8804.0x3c24]
+
+Breakpoint 3, 0x00401477 in main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:12
+12	{
++n
+14	    n=input_array_size();
++n
+15	    int a[n];
++p n
+$1 = 35
++n
+16	    init_array(n,a[n]);
++n
+
+Breakpoint 2, init_array (n=35, a=0x3f206552)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:34
+34	        a[i]=i;
++p a[i]
+Cannot access memory at address 0x3f20655a
++i
+"info" must be followed by the name of an info command.
+List of info subcommands:
+
+info address -- Describe where symbol SYM is stored
+info all-registers -- List of all registers and their contents
+info args -- Argument variables of current stack frame
+info auto-load -- Print current status of auto-loaded files
+info auxv -- Display the inferior's auxiliary vector
+info bookmarks -- Status of user-settable bookmarks
+info breakpoints -- Status of specified breakpoints (all user-settable breakpoints if no argument)
+info classes -- All Objective-C classes
+info common -- Print out the values contained in a Fortran COMMON block
+info copying -- Conditions for redistributing copies of GDB
+info dcache -- Print information on the dcache performance
+info display -- Expressions to display when program stops
+info extensions -- All filename extensions associated with a source language
+info files -- Names of targets and files being debugged
+info float -- Print the status of the floating point unit
+info frame -- All about selected stack frame
+info functions -- All function names
+info handle -- What debugger does when program gets various signals
+info inferiors -- IDs of specified inferiors (all inferiors if no argument)
+info line -- Core addresses of the code for a source line
+info locals -- Local variables of current stack frame
+info macro -- Show the definition of MACRO
+info macros -- Show the definitions of all macros at LINESPEC
+info mem -- Memory region attributes
+info os -- Show OS data ARG
+info probes -- Show available static probes
+info proc -- Show /proc process information about any running process
+info program -- Execution status of the program
+info record -- Info record options
+info registers -- List of integer registers and their contents
+info scope -- List the variables local to a scope
+info selectors -- All Objective-C selectors
+info set -- Show all GDB settings
+info sharedlibrary -- Status of loaded shared object libraries
+info signals -- What debugger does when program gets various signals
+info skip -- Display the status of skips
+info source -- Information about the current source file
+info sources -- Source files in the program
+info stack -- Backtrace of the stack
+info static-tracepoint-markers -- List target static tracepoints markers
+info symbol -- Describe what symbol is at location ADDR
+info target -- Names of targets and files being debugged
+info tasks -- Provide information about all known Ada tasks
+info terminal -- Print inferior's saved terminal status
+info threads -- Display currently known threads
+info tracepoints -- Status of specified tracepoints (all tracepoints if no argument)
+info tvariables -- Status of trace state variables and their values
+info types -- All type names
+info variables -- All global and static variable names
+info vector -- Print the status of the vector unit
+info vtbl -- Show the virtual function table for a C++ object
+info w32 -- Print information specific to Win32 debugging
+info warranty -- Various kinds of warranty you do not have
+info watchpoints -- Status of specified watchpoints (all watchpoints if no argument)
+
+Type "help info" followed by info subcommand name for full documentation.
+Type "apropos word" to search for commands related to "word".
+Command name abbreviations are allowed if unambiguous.
++p i
+$2 = 2
++n
+
+Program received signal SIGSEGV, Segmentation fault.
+0x00401566 in init_array (n=35, a=0x3f206552)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:34
+34	        a[i]=i;
++n
+
+Program received signal SIGSEGV, Segmentation fault.
+0x00401566 in init_array (n=35, a=0x3f206552)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:34
+34	        a[i]=i;
++p i
+$3 = 2
++n
+[Inferior 1 (process 8804) exited with code 030000000005]
++n
+The program is not being run.
++n
+The program is not being run.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03/./problem05.exe 
+[New Thread 14976.0x5f98]
+[New Thread 14976.0x4b78]
+
+Breakpoint 3, 0x00401477 in main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:12
+12	{
++n
+14	    n=input_array_size();
++m
+Ambiguous command "m": macro, maintenance, make, mem, monitor, mt.
++n
+15	    int a[n];
++n
+16	    init_array(n,a[n]);
++n
+
+Breakpoint 2, init_array (n=35, a=0xa528e6d2)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:34
+34	        a[i]=i;
++n
+
+Program received signal SIGSEGV, Segmentation fault.
+0x00401566 in init_array (n=35, a=0xa528e6d2)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:34
+34	        a[i]=i;
++n
+
+Program received signal SIGSEGV, Segmentation fault.
+0x00401566 in init_array (n=35, a=0xa528e6d2)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:34
+34	        a[i]=i;
++n
+[Inferior 1 (process 14976) exited with code 030000000005]
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
