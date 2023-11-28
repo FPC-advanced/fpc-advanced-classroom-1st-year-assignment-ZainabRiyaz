@@ -29,31 +29,32 @@ int input_array_size()
 
 void init_array(int n, int a[n])
 {
-    for(int i=2;i<n;i++)
+    int j=2;
+    for(int i=0;i<n;i++)
     {
-        a[i]=i;
+        a[i]=j;
+        j++;
     }
 }
 
 void erotosthenes_sieve(int n, int a[n])
 {  
-    for(int i = 2; (a[i] * a[i]) <= n; i++)  
-    {  
-        if(a[i] != 0)  
-        {  
-            for(int j = a[i] * a[i]; j <= n; j += a[i])  
-            {  
-                a[j - 1] = 0;  
-            }  
-        }  
-  
+    for(int i=0;i<n;i++)
+    {
+        if(a[i]>3 && a[i]!=5)
+        {
+            if(a[i]%2==0 || a[i]%3==0 || a[i]%5==0)
+            {
+                a[i]=0;
+            }
+        }
     }
     
 }  
 
 void output(int n,int a[n])
 {
-    for(int i=2;i<n+1;i++)
+    for(int i=0;i<n;i++)
     {
         if(a[i]!=0)
         {
