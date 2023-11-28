@@ -1,0 +1,45 @@
++l
+19	void input_polygon(Polygon *p);
+20	float find_distance(Point a, Point b);
+21	void find_perimeter(Polygon *p);
+22	void output(Polygon p);
+23	
+24	int main()
+25	{
+26	    int n;
+27	    Polygon p;
+28	    p.sides=input_n();
++b 52
+Breakpoint 1 at 0x40152e: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem08.c, line 52.
++b main
+Breakpoint 2 at 0x401474: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem08.c, line 28.
++n
+The program is not being run.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03/./problem08.exe 
+[New Thread 20832.0x41fc]
+[New Thread 20832.0x684c]
+
+Breakpoint 2, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem08.c:28
+28	    p.sides=input_n();
++n
+29	    input_polygon(&p);
++p p.sides
+$1 = 4
++n
+
+Breakpoint 1, input_polygon (p=0x61fbe8)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem08.c:52
+52	    for(int i=0;i<p->sides;i++)
++p p.sides
+$2 = 4
++n
+54	        p->p[i]=input_point();
++n
+
+Program received signal SIGSEGV, Segmentation fault.
+0x75d17342 in msvcrt!$I10_OUTPUT () from C:\WINDOWS\SysWOW64\msvcrt.dll
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
