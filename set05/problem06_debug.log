@@ -1,0 +1,30 @@
++l
+2	
+3	#include <stdio.h>
+4	
+5	int input_n();
+6	void input(int n, int a[n]);
+7	float odd_average(int n, int a[n]);
+8	void output(float avg);
+9	
+10	int main()
+11	{
++b main
+Breakpoint 1 at 0x401477: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set05\problem06.c, line 11.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set05/./problem06.exe 
+[New Thread 22476.0x18b0]
+[New Thread 22476.0x5d44]
+
+Breakpoint 1, 0x00401477 in main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set05\problem06.c:11
+11	{
++n
+13	    n=input_n();
++n
+14	    int a[n];
++p n
+$1 = 5
++n
+15	    input(n,a);
++n
