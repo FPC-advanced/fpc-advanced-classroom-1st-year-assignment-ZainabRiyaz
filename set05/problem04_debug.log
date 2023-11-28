@@ -1,0 +1,42 @@
++l 
+3	#include <stdio.h>
+4	
+5	void input_camel_details(float *radius, float *height, float *length);
+6	int find_mood(float radius, float height, float length);
+7	void output(float radius, float height, float length, int mood);
+8	
+9	int main()
+10	{
+11	    float radius,height,length,mood;
+12	    input_camel_details(&radius,&height,&length);
++b main
+Breakpoint 1 at 0x40146e: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set05\problem04.c, line 12.
++n
+The program is not being run.
++n
+The program is not being run.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set05/./problem04.exe 
+[New Thread 9824.0x5c84]
+[New Thread 9824.0x5620]
+
+Breakpoint 1, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set05\problem04.c:12
+12	    input_camel_details(&radius,&height,&length);
++n
+13	    mood=find_mood(radius,height,length);
++p radius
+$1 = 5
++p height
+$2 = 2
++p length
+$3 = 4
++n
+14	    output(radius,height,length,mood);
++n
+15	}
++n
+0x00401288 in __register_frame_info ()
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
