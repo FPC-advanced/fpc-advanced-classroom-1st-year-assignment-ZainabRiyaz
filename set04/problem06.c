@@ -7,35 +7,31 @@ void input_string(char *a);
 int count_words(char *string);
 void output(char *string, int no_words);
 
-int main()
+int  main()
 {
-    char str;
-    int nword;
-    input_string(&str);
-    nword=count_words(&str);
-    output(&str,nword);
+
     return 0;
 }
 
 void input_string(char *a)
 {
-    printf("Please enter the string: ");
-    scanf("%s",a);
+    printf("Enter the string: ");
+    scanf("%99[^\n]",a);
 }
 
 int count_words(char *string)
 {
-    char *tok;
-    int count=0;
-    while((tok=strtok(string," "))!=NULL)
+    int c=0;
+    char tok=strtok(string," ");
+    while(tok!=NULL)
     {
-        string=NULL;
-        count++;
+        c++;
+        tok=strtok(NULL," ");
     }
-    return count;
+    return c;
 }
 
-void output(char *string, int no_words)
+void output(char *string,int no_words)
 {
-    printf("The total number of words is %d",no_words);
+    printf("The total number of words are %d",no_words);
 }
