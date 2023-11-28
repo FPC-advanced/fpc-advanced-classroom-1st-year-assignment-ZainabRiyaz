@@ -37,20 +37,21 @@ void init_array(int n, int a[n])
 
 void erotosthenes_sieve(int n, int a[n])
 {  
-    int limit=sqrt(n);
-    for(int i = 2; i <= limit; i++)  
+    for(int i = 2; (a[i] * a[i]) <= n; i++)  
     {  
-        if(a[i]!= 0)  
+        if(a[i] != 0)  
         {  
-            for(int j = pow(a[i], 2); j <= n; j = j + a[i])  
+            for(int j = a[i] * a[i]; j <= n; j += a[i])  
             {  
                 a[j - 1] = 0;  
             }  
-        } 
+        }  
+  
     }
+    
 }  
 
-void output(int n, int a[n])
+void output(int n,int a[n])
 {
     for(int i=2;i<n+1;i++)
     {
