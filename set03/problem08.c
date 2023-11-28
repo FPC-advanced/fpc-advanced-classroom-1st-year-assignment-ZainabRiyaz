@@ -53,7 +53,7 @@ void input_polygon(Polygon *p)
     scanf("%d",p->sides);
     for(int i=0;i<p->sides;i++)
     {
-        p->p[0]=input_point();
+        p->p[i]=input_point();
     }
 }
 
