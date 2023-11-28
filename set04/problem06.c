@@ -9,7 +9,11 @@ void output(char *string, int no_words);
 
 int  main()
 {
-
+    char str[100];
+    int w=0;
+    input_string(str);
+    w=count_words(str);
+    output(str,w);
     return 0;
 }
 
