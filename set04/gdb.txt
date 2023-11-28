@@ -31,3 +31,4 @@ Breakpoint 1, input_string (a=0x61feb8 "\034“Óuüþa")
     at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem06.c:23
 23	    scanf("%99[^\n]",a);
 +n
+24	}
