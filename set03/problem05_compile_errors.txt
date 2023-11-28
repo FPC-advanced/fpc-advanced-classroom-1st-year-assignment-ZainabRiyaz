@@ -393,3 +393,24 @@ c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
              for(int j = pow(a[i], 2); j <= n; j = j + a[i])
              ^~~
 Compilation finished at 11/28/2023, 10:23:46 AM
+Compilation started at 11/28/2023, 10:24:18 AM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c: In function 'main':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:16:18: warning: passing argument 2 of 'init_array' makes pointer from integer without a cast [-Wint-conversion]
+     init_array(n,a[n]);
+                  ^
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:7:6: note: expected 'int *' but argument is of type 'int'
+ void init_array(int n, int a[n]);
+      ^~~~~~~~~~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:17:26: warning: passing argument 2 of 'erotosthenes_sieve' makes pointer from integer without a cast [-Wint-conversion]
+     erotosthenes_sieve(n,a[n]);
+                          ^
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:8:6: note: expected 'int *' but argument is of type 'int'
+ void erotosthenes_sieve(int n, int a[n]);
+      ^~~~~~~~~~~~~~~~~~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:18:14: warning: passing argument 2 of 'output' makes pointer from integer without a cast [-Wint-conversion]
+     output(n,a[n]);
+              ^
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem05.c:9:6: note: expected 'int *' but argument is of type 'int'
+ void output(int n, int a[n]);
+      ^~~~~~
+Compilation finished at 11/28/2023, 10:24:22 AM
