@@ -1,6 +1,7 @@
 /*5.  Write a program to find borga(x) given */
 
 #include <stdio.h>
+#include <math.h>
 
 int input(int x);
 float borga_X(int x);
