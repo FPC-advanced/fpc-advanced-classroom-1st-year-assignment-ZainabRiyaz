@@ -1,0 +1,40 @@
++l
+5	
+6	void input(char *name);
+7	int has_nice_name(char *c);
+8	void output(int res);
+9	
+10	int main()
+11	{
+12	    char name;
+13	    int res;
+14	    input(&name);
++b main
+Breakpoint 1 at 0x40146e: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set05\problem07.c, line 14.
++n
+The program is not being run.
++n
+The program is not being run.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set05/./problem07.exe 
+[New Thread 3084.0x5cec]
+[New Thread 3084.0x4dec]
+
+Breakpoint 1, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set05\problem07.c:14
+14	    input(&name);
++n
+15	    res=has_nice_name(&name);
++p name
+$1 = 90 'Z'
++n
+16	    output(res);
++n
+17	    return 0;
++n
+18	}
++n
+0x00401288 in __register_frame_info ()
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
