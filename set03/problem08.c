@@ -23,60 +23,52 @@ void output(Polygon p);
 
 int main()
 {
-    Polygon pl;
-    input_polygon(&pl);
-    find_perimeter(&pl);
-    output(pl);
+    int n;
+    Polygon p;
+    n=input_n();
+    input_polygon(&p);
+    find_perimeter(&p);
+    output(p);
     return 0;
 }
-
 int input_n()
 {
     int n;
-    printf("Please input the number of sides of the polygon: ");
+    printf("Enter the number of sides: ");
     scanf("%d",&n);
     return n;
 }
 
 Point input_point()
 {
-    Point p;
-    printf("Please enter the x and y coordinte (x,y) : ");
-    scanf("%f %f",&p.x,&p.y);
-    return p;
+    Point a;
+    printf("Enter x and y coordinate (x,y): ",a.x,a.y);
+    scanf("%f %f");
+    return a;
 }
 
 void input_polygon(Polygon *p)
 {
-    int n=input_n();
-    for(int i=0;i<n;i++)
+    printf("Enter number of sides: ");
+    scanf("%d",p->sides);
+    for(int i=0;i<p->sides;i++)
     {
-        p->p[i]=input_point();
+        p->p[0]=input_point();
     }
 }
 
 float find_distance(Point a, Point b)
 {
-    float distance;
-    distance=sqrt((b.x-a.x)*(b.x-a.x)+(b.y-a.y)*(b.y-a.y));
+    float distance=sqrt((b.x-a.x)*(b.x-a.x)+(b.y-a.y)*(b.y-a.y));
     return distance;
 }
 
 void find_perimeter(Polygon *p)
 {
-    float distance=0.0;
     for(int i=0;i<p->sides;i++)
     {
-        if(i!=p->sides-1)
-        {
-        distance+=find_distance(p->p[i],p->p[i+1]);
-        }
-        else if(i==p->sides-1)
-        {
-            distance+=find_distance(p->p[i],p->p[0]);
-        }
+        p->perimeter+=find_distance(p->p[i],p->p[i+1]);
     }
-    p->perimeter=distance;
 }
 
 void output(Polygon p)
