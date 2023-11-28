@@ -50,7 +50,7 @@ void erotosthenes_sieve(int n, int a[n+1])
 
 void output(int n, int a[n+1])
 {
-    for(int i=2;i<n;i++)
+    for(int i=2;i<n+1;i++)
     {
         if(a[i]!=0)
         {
