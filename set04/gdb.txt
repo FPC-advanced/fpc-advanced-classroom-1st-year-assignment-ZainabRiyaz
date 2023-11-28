@@ -85,3 +85,14 @@ $3 = 4
 $4 = "hello\000world\000very\000hello\000uhÛ¨^à\022@\000à\022@\000\000\000\000\000ð\031@\000Ðþa\000\bÿa\000Ìÿa\000páÍuìú\033+þÿÿÿ\bÿa\000m‚Íuð\031@\000Tÿa\000K\032@\000ð\031@\000\b\026\036\000\000\000\000"
 +n
 17	    return 0;
++n
+18	}
++n
+0x00401288 in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
