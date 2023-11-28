@@ -14,3 +14,44 @@ Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-clas
 [New Thread 13928.0x218]
 [New Thread 13928.0x684c]
 [Inferior 1 (process 13928) exited normally]
++b 14
+Breakpoint 1 at 0x401490: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem06.c, line 14.
++b 15
+Breakpoint 2 at 0x4014ab: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem06.c, line 15.
++b main
+Breakpoint 3 at 0x401471: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem06.c, line 12.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03/./problem06.exe 
+[New Thread 1472.0x5908]
+[New Thread 1472.0x3848]
+
+Breakpoint 3, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem06.c:12
+12	    int i=0;
++n
+13	    input_string(str,substr);
++n
+
+Breakpoint 1, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem06.c:14
+14	    i=sub_str_index(str,substr);
++p str
+$1 = "zainabb\000=|Îu\b\000\000\000}\201Íuc\201Íu\027T\005\026à\022@\000à\022@\000\000\000\000\000 \032@\000Ðþa\000\bÿa\000Ìÿa\000páÍu“u¶cþÿÿÿ\bÿa\000m‚Íu \032@\000Tÿa\000û\032@\000 \032@\000\b\026§\000\000\000\000"
++p substr
+$2 = "nab\000¨þa\000’~Ìu\000\000§\000\000\000\000\000\220\f§\000CT\005\026\b\000\000\000\220\f§\000\230\f§\000à\022@\000\060\024@\000\001\000\000\000?‚Íu\200\000\000\000lþa\000œ\f§\000¤þa\000à\022@\000 \032@\000\000\000\000\000?‚Íuœ\f§\000¼þa\000u‡Îu"
++n
+
+Breakpoint 2, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03\problem06.c:15
+15	    output(str,substr,i);
++p i
+$3 = 3
++n
+16	    return 0;
++n
+17	}
++n
+0x00401288 in __register_frame_info ()
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
