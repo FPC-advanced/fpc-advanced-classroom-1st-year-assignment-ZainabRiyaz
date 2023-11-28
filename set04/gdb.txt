@@ -1,0 +1,33 @@
++l
+4	#include <string.h>
+5	
+6	void input_string(char *a);
+7	int count_words(char *string);
+8	void output(char *string, int no_words);
+9	
+10	int  main()
+11	{
+12	    char str[100];
+13	    int w=0;
++b 23
+Breakpoint 1 at 0x4014bf: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem06.c, line 23.
++b 29
+Breakpoint 2 at 0x4014e2: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem06.c, line 29.
++b main
+Breakpoint 3 at 0x40146e: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem06.c, line 13.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04/./problem06.exe 
+[New Thread 8656.0x6b88]
+[New Thread 8656.0x6690]
+
+Breakpoint 3, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem06.c:13
+13	    int w=0;
++n
+14	    input_string(str);
++n
+
+Breakpoint 1, input_string (a=0x61feb8 "\034“Óuüþa")
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set04\problem06.c:23
+23	    scanf("%99[^\n]",a);
++n
