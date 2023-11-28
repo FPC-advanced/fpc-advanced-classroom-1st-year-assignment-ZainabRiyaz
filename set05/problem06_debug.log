@@ -28,3 +28,17 @@ $1 = 5
 +n
 15	    input(n,a);
 +n
+16	    avg=odd_average(n,a);
++p a
+$2 = 0x61fec8
++n
+17	    output(avg);
++n
+18	    return 0;
++n
+19	}
++n
+0x00401288 in __register_frame_info ()
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
