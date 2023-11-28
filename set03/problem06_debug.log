@@ -9,3 +9,8 @@
 10	{
 11	    char str[100],substr[100];
 12	    int i=0;
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set03/./problem06.exe 
+[New Thread 13928.0x218]
+[New Thread 13928.0x684c]
+[Inferior 1 (process 13928) exited normally]
