@@ -80,5 +80,5 @@ Fraction add_fractions(Fraction f1, Fraction f2,int lcm)
 
 void output(Fraction f1, Fraction f2,Fraction sum)
 {
-    printf("The lcm is  %d/%d",sum.num,sum.den);
+    printf("The sum is  %d/%d",sum.num,sum.den);
 }
