@@ -8,3 +8,11 @@ c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
 c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 11/25/2023, 6:56:00 AM
+Compilation started at 11/28/2023, 10:51:36 PM
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set05\problem05.c: In function 'borga_X':
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set05\problem05.c:31:18: warning: implicit declaration of function 'pow' [-Wimplicit-function-declaration]
+             sum+=pow(x,i)/k;
+                  ^~~
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set05\problem05.c:31:18: warning: incompatible implicit declaration of built-in function 'pow'
+c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set05\problem05.c:31:18: note: include '<math.h>' or provide a declaration of 'pow'
+Compilation finished at 11/28/2023, 10:51:41 PM

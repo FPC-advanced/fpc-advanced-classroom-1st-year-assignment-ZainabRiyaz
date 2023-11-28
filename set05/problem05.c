@@ -6,12 +6,19 @@ int input(int x);
 float borga_X(int x);
 void output(int x, float result);
 
+int main()
+{
+    int x;
+    x=input(x);
+    float res=borga_X(x);
+    output(x,res);
+    return 0;
+}
 int input(int x)
 {
-    int n;
     printf("Enter the value of x: ");
-    scanf("%d",&n);
-    return n;
+    scanf("%d",&x);
+    return x;
 }
 
 float borga_X(int x)
@@ -24,5 +31,10 @@ float borga_X(int x)
             sum+=pow(x,i)/k;
         }
     }
+    return sum;
+}
 
+void output(int x, float result)
+{
+    printf("borga(%d)=%d",x,result);
 }
