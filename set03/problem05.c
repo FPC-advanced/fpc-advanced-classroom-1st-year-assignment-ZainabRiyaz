@@ -28,13 +28,16 @@ int input_array_size()
 
 void init_array(int n, int a[n+1])
 {
-    for(int i=2;i<n;i++)
+    for(int i=2;i<n+1;i++)
     {
         a[i]=1;
     }
-    for(int i=2;i<n;i++)
+    for(int i=2;i<n+1;i++)
     {
-        printf("%d",a[i]);
+        if(a[i]!=0)
+        {
+            printf("%d",i);
+        }
     }
 }
 
