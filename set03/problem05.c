@@ -13,9 +13,9 @@ int main()
     int n;
     n=input_array_size();
     int a[n];
-    init_array(n,a[n]);
-    erotosthenes_sieve(n,a[n]);
-    output(n,a[n]);
+    init_array(n,a);
+    erotosthenes_sieve(n,a);
+    output(n,a);
     return 0;
 }
 

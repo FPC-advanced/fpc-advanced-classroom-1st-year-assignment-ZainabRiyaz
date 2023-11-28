@@ -456,3 +456,5 @@ c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
  void output(int n, int a[n]);
       ^~~~~~
 Compilation finished at 11/28/2023, 2:48:22 PM
+Compilation started at 11/28/2023, 2:49:35 PM
+Compilation finished at 11/28/2023, 2:49:39 PM
