@@ -1,0 +1,53 @@
++l
+4	#include <math.h>
+5	
+6	void input_camel_details(float *radius, float *height, float *length);
+7	float find_weight(float radius, float height, float length);
+8	void output(float radius, float height, float length, float weight);
+9	
+10	int main()
+11	{
+12	    float radius,height,length,weight;
+13	    input_camel_details(&radius,&height,&length);
++b 32
+Breakpoint 1 at 0x401581: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set05\problem02.c, line 32.
++b main
+Breakpoint 2 at 0x40146e: file c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set05\problem02.c, line 13.
++r
+Starting program: c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set05/./problem02.exe 
+[New Thread 6856.0x59bc]
+[New Thread 6856.0x5530]
+
+Breakpoint 2, main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set05\problem02.c:13
+13	    input_camel_details(&radius,&height,&length);
++n
+14	    weight=find_weight(radius,height,length);
++p radius
+$1 = 1
++p height
+$2 = 1
++p length
+$3 = 1
++n
+
+Breakpoint 1, find_weight (radius=1, height=1, length=1)
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set05\problem02.c:32
+32	    return weight;
++p weight
+$4 = 3.14159298
++n
+33	}
++n
+main ()
+    at c:\Users\zaina\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-ZainabRiyaz\set05\problem02.c:15
+15	    output(radius,height,length,weight);
++n
+16	    return 0;
++n
+17	}
++n
+0x00401288 in __register_frame_info ()
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
