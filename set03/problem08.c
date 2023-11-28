@@ -25,7 +25,7 @@ int main()
 {
     int n;
     Polygon p;
-    n=input_n();
+    p.sides=input_n();
     input_polygon(&p);
     find_perimeter(&p);
     output(p);
@@ -49,8 +49,6 @@ Point input_point()
 
 void input_polygon(Polygon *p)
 {
-    printf("Enter number of sides: ");
-    scanf("%d",p->sides);
     for(int i=0;i<p->sides;i++)
     {
         p->p[i]=input_point();
